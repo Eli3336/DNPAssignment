@@ -58,6 +58,6 @@ public class UserLogic : IUserLogic
         if (password.Length > 15)
             throw new Exception("must be less than 16 characters!");
     }
-    
-    
+
+   
 }

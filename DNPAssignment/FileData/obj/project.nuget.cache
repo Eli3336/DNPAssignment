@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "aBXUB1L3j/hoLNKtdwGYkjhQbmTWAyUgxEBBF4meBwSW4usBNTPyjh8uWFeKwAa1ClNA/NVZom4Zb6T9riGbXA==",
+  "dgSpecHash": "UsOpU+X6GAdAoNao/62zAensnG2zgBYV4OG5CjHmv1a7eSFUO1uukBo0MY5CAdXhONEZXpZggto2M45n3s5LFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mihai\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\FileData\\FileData.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\FileData\\FileData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.0-rc.2.22476.2\\microsoft.aspnetcore.authorization.7.0.0-rc.2.22476.2.nupkg.sha512",
+    "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.0-rc.2.22476.2\\microsoft.aspnetcore.metadata.7.0.0-rc.2.22476.2.nupkg.sha512",
+    "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0-rc.2.22472.3\\microsoft.extensions.dependencyinjection.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0-rc.2.22472.3\\microsoft.extensions.logging.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.extensions.options\\7.0.0-rc.2.22472.3\\microsoft.extensions.options.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-rc.2.22472.3\\microsoft.extensions.primitives.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Bianca\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

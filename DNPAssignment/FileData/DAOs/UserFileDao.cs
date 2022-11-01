@@ -1,4 +1,5 @@
-﻿using Application.DaoInterfaces;
+﻿using System.Text.Json;
+using Application.DaoInterfaces;
 using Domain.DTOs;
 using Domain.Models;
 
@@ -37,18 +38,19 @@ public class UserFileDao : IUserDao
         );
         return Task.FromResult(existing);
     }
-    
+
     public Task<IEnumerable<User>> GetAsync(SearchUserParametersDto searchParameters)
     {
         IEnumerable<User> users = context.Users.AsEnumerable();
         if (searchParameters.UsernameContains != null)
         {
-            users = context.Users.Where(u => u.UserName.Contains(searchParameters.UsernameContains, StringComparison.OrdinalIgnoreCase));
+            users = context.Users.Where(u =>
+                u.UserName.Contains(searchParameters.UsernameContains, StringComparison.OrdinalIgnoreCase));
         }
 
         return Task.FromResult(users);
     }
-    
+
     public Task<User?> GetByIdAsync(int id)
     {
         User? existing = context.Users.FirstOrDefault(u =>
@@ -56,4 +58,11 @@ public class UserFileDao : IUserDao
         );
         return Task.FromResult(existing);
     }
+
+    public Task<List<User>> GetAll()
+    {
+        List<User> users = context.Users.ToList();
+        return Task.FromResult(users);
+    }
+
 }

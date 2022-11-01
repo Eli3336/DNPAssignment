@@ -50,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RiderProjects\\TodoAppWasm\\BlazorWasm\\BlazorWasm.csproj",
+      "projectUniqueName": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\BlazorWasm.csproj",
       "projectName": "BlazorWasm",
-      "projectPath": "D:\\RiderProjects\\TodoAppWasm\\BlazorWasm\\BlazorWasm.csproj",
+      "projectPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\BlazorWasm.csproj",
       "packagesPath": "C:\\Users\\Bianca\\.nuget\\packages\\",
-      "outputPath": "D:\\RiderProjects\\TodoAppWasm\\BlazorWasm\\obj\\",
+      "outputPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bianca\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -69,8 +69,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\RiderProjects\\TodoAppWasm\\HttpClients\\HttpClients.csproj": {
-              "projectPath": "D:\\RiderProjects\\TodoAppWasm\\HttpClients\\HttpClients.csproj"
+            "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\HttpClients.csproj": {
+              "projectPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\HttpClients.csproj"
             }
           }
         }

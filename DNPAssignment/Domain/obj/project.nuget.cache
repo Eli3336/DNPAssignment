@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ACLAZGFLr60mqyaoMIRbwxoE+OAdQ8MxyH/M7yZxaY52O+iPXFa/7q/Ru4lz8qAIK6/G9rh+bGyCaDmKxlegIw==",
+  "dgSpecHash": "N6Smw3o+YI11qj6YYO/Xujz5L3YdY1DvsKJGosG1ZvsCD0ZYvecwJRObM54iEGJ9ofMf+M0cayqOXbMgH7HzSw==",
   "success": true,
-  "projectFilePath": "D:\\RiderProjects\\TodoAppWasm\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

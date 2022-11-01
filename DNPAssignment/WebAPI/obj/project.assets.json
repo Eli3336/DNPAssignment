@@ -282,11 +282,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RiderProjects\\TodoAppWasm\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "D:\\RiderProjects\\TodoAppWasm\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\Bianca\\.nuget\\packages\\",
-      "outputPath": "D:\\RiderProjects\\TodoAppWasm\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bianca\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -301,11 +301,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\RiderProjects\\TodoAppWasm\\Application\\Application.csproj": {
-              "projectPath": "D:\\RiderProjects\\TodoAppWasm\\Application\\Application.csproj"
+            "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Application\\Application.csproj"
             },
-            "D:\\RiderProjects\\TodoAppWasm\\FileData\\FileData.csproj": {
-              "projectPath": "D:\\RiderProjects\\TodoAppWasm\\FileData\\FileData.csproj"
+            "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\FileData\\FileData.csproj": {
+              "projectPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\FileData\\FileData.csproj"
             }
           }
         }

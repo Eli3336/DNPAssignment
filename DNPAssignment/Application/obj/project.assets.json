@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RiderProjects\\TodoAppWasm\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\RiderProjects\\TodoAppWasm\\Application\\Application.csproj",
+      "projectPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\Bianca\\.nuget\\packages\\",
-      "outputPath": "D:\\RiderProjects\\TodoAppWasm\\Application\\obj\\",
+      "outputPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bianca\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\RiderProjects\\TodoAppWasm\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\RiderProjects\\TodoAppWasm\\Domain\\Domain.csproj"
+            "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj"
             }
           }
         }

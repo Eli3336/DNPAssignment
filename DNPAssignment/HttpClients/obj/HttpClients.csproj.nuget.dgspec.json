@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\RiderProjects\\TodoAppWasm\\HttpClients\\HttpClients.csproj": {}
+    "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\HttpClients.csproj": {}
   },
   "projects": {
-    "D:\\RiderProjects\\TodoAppWasm\\Domain\\Domain.csproj": {
+    "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RiderProjects\\TodoAppWasm\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\RiderProjects\\TodoAppWasm\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Bianca\\.nuget\\packages\\",
-        "outputPath": "D:\\RiderProjects\\TodoAppWasm\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bianca\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "D:\\RiderProjects\\TodoAppWasm\\HttpClients\\HttpClients.csproj": {
+    "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\HttpClients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RiderProjects\\TodoAppWasm\\HttpClients\\HttpClients.csproj",
+        "projectUniqueName": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\HttpClients.csproj",
         "projectName": "HttpClients",
-        "projectPath": "D:\\RiderProjects\\TodoAppWasm\\HttpClients\\HttpClients.csproj",
+        "projectPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\HttpClients.csproj",
         "packagesPath": "C:\\Users\\Bianca\\.nuget\\packages\\",
-        "outputPath": "D:\\RiderProjects\\TodoAppWasm\\HttpClients\\obj\\",
+        "outputPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bianca\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -79,8 +79,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\RiderProjects\\TodoAppWasm\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\RiderProjects\\TodoAppWasm\\Domain\\Domain.csproj"
+              "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj"
               }
             }
           }

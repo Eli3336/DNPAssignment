@@ -16,7 +16,7 @@ public class TodoLogic : ITodoLogic
         this.userDao = userDao;
     }
 
-    public async Task<ToDo> CreateAsync(TodoCreationDto dto)
+    public async Task<Todo> CreateAsync(TodoCreationDto dto)
     {
         User? user = await userDao.GetByIdAsync(dto.OwnerId);
         if (user == null)
@@ -25,12 +25,12 @@ public class TodoLogic : ITodoLogic
         }
 
         ValidateTodo(dto);
-        ToDo todo = new ToDo(user, dto.Title);
-        ToDo created = await todoDao.CreateAsync(todo);
+        Todo todo = new Todo(user, dto.Title);
+        Todo created = await todoDao.CreateAsync(todo);
         return created;       
     }
 
-    public Task<IEnumerable<ToDo>> GetAsync(SearchTodoParametersDto searchParameters)
+    public Task<IEnumerable<Todo>> GetAsync(SearchTodoParametersDto searchParameters)
     {
         return todoDao.GetAsync(searchParameters);
     }
@@ -38,7 +38,7 @@ public class TodoLogic : ITodoLogic
     public async Task UpdateAsync(TodoUpdateDto dto)
     {
         
-        ToDo? existing = await todoDao.GetByIdAsync(dto.Id);
+        Todo? existing = await todoDao.GetByIdAsync(dto.Id);
 
         if (existing == null)
         {
@@ -64,7 +64,7 @@ public class TodoLogic : ITodoLogic
         string titleToUse = dto.Title ?? existing.Title;
         bool completedToUse = dto.IsCompleted ?? existing.IsCompleted;
         
-        ToDo updated = new (userToUse, titleToUse)
+        Todo updated = new (userToUse, titleToUse)
         {
             IsCompleted = completedToUse,
             Id = existing.Id,
@@ -77,7 +77,7 @@ public class TodoLogic : ITodoLogic
 
     public async Task DeleteAsync(int id)
     {
-        ToDo? todo = await todoDao.GetByIdAsync(id);
+        Todo? todo = await todoDao.GetByIdAsync(id);
         if (todo == null)
         {
             throw new Exception($"Todo with ID {id} was not found!");
@@ -91,7 +91,7 @@ public class TodoLogic : ITodoLogic
         await todoDao.DeleteAsync(id);
     }
 
-    private void ValidateTodo(ToDo dto)
+    private void ValidateTodo(Todo dto)
     {
         if (string.IsNullOrEmpty(dto.Title)) throw new Exception("Title cannot be empty.");
         // other validation stuff

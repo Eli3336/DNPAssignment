@@ -5,8 +5,8 @@ namespace Application.LogicInterfaces;
 
 public interface ITodoLogic
 {
-    Task<ToDo> CreateAsync(TodoCreationDto dto);
-    Task<IEnumerable<ToDo>> GetAsync(SearchTodoParametersDto searchParameters);
+    Task<Todo> CreateAsync(TodoCreationDto dto);
+    Task<IEnumerable<Todo>> GetAsync(SearchTodoParametersDto searchParameters);
     Task UpdateAsync(TodoUpdateDto todo);
     Task DeleteAsync(int id);
 }

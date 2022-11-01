@@ -18,11 +18,11 @@ public class TodosController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<ToDo>> CreateAsync(TodoCreationDto dto)
+    public async Task<ActionResult<Todo>> CreateAsync(TodoCreationDto dto)
     {
         try
         {
-            ToDo created = await todoLogic.CreateAsync(dto);
+            Todo created = await todoLogic.CreateAsync(dto);
             return Created($"/todos/{created.Id}", created);
         }
         catch (Exception e)
@@ -33,7 +33,7 @@ public class TodosController : ControllerBase
     }
     
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<ToDo>>> GetAsync([FromQuery] string? userName, [FromQuery] int? userId,
+    public async Task<ActionResult<IEnumerable<Todo>>> GetAsync([FromQuery] string? userName, [FromQuery] int? userId,
         [FromQuery] bool? completedStatus, [FromQuery] string? titleContains)
     {
         try

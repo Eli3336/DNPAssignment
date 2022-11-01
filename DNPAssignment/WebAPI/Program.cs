@@ -37,6 +37,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     };
 });
 
+builder.Services.AddScoped<IAuthLogic, AuthLogic>();
+
 var app = builder.Build();
 
 app.UseCors(x => x

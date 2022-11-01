@@ -1,6 +1,6 @@
 ﻿<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">BlazorWASM</a>
+        <a class="navbar-brand" href="">BlazorWasm</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -15,23 +15,13 @@
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="CreateUser">
-                <span class="oi oi-plus" aria-hidden="true"></span> Create user
+            <NavLink class="nav-link" href="counter">
+                <span class="oi oi-plus" aria-hidden="true"></span> Counter
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="CreateTodo">
-                <span class="oi oi-plus" aria-hidden="true"></span> Create todo
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="ViewUsers">
-                <span class="oi oi-list" aria-hidden="true"></span> View users
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="ViewTodos">
-                <span class="oi oi-list" aria-hidden="true"></span> View Todos
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
             </NavLink>
         </div>
     </nav>
@@ -46,4 +36,5 @@
     {
         collapseNavMenu = !collapseNavMenu;
     }
+
 }

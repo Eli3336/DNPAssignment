@@ -8,7 +8,7 @@ public class FileContext
     private const string filePath = "data.json";
     private DataContainer? dataContainer;
 
-    public ICollection<ToDo> Todos
+    public ICollection<Todo> Todos
     {
         get
         {
@@ -33,7 +33,7 @@ public class FileContext
         {
             dataContainer = new ()
             {
-                Todos = new List<ToDo>(),
+                Todos = new List<Todo>(),
                 Users = new List<User>()
             };
             return;

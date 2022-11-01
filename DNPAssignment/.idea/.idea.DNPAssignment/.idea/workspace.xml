@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447265e4-aa51-4ec3-87eb-bafe488573b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FileData/DAOs/UserFileDAO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPAssignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPAssignment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoAppWasm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoAppWasm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileData/FileContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FileData/FileContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPAssignment/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPAssignment/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Logic/UserLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Logic/UserLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/DTOs/UserCreationDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/DTOs/UserCreationDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/User.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +16,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GwCtWPtrCHUF47yBEcjN7yJmF1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

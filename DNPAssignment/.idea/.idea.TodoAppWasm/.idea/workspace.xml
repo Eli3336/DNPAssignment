@@ -6,11 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d217ce42-6b91-40c6-9b0f-9d30b2c43d5e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TodoAppWasm/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/DaoInterfaces/IUserDao.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Logic/UserLogic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/LogicInterfaces/IUserLogic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/DTOs/UserCreationDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoAppWasm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoAppWasm/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -77,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667289768077</updated>
-      <workItem from="1667289772094" duration="604000" />
+      <workItem from="1667289772094" duration="1286000" />
     </task>
     <servers />
   </component>

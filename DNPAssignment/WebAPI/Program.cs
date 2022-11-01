@@ -6,6 +6,8 @@ using FileData;
 using FileData.DAOs;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using WebApi.Services;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,8 +39,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     };
 });
 
-builder.Services.AddScoped<IAuthLogic, AuthLogic>();
 
+builder.Services.AddScoped<IAuthService, AuthService>();
 var app = builder.Build();
 
 app.UseCors(x => x

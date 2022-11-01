@@ -1,14 +1,16 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿
+
+using System.ComponentModel.DataAnnotations;
 using System.Text.Json;
 using Domain.Models;
 
 namespace WebApi.Services;
 
-public class AuthLogic:IAuthLogic
+public class AuthService:IAuthService
 {
-    private IList<User> users = new List<User>();
+    private List<User> users = new List<User>();
 
-    public AuthLogic()
+    public AuthService()
     {
         string content = File.ReadAllText("data.json");
         users = JsonSerializer.Deserialize<List<User>>(content);

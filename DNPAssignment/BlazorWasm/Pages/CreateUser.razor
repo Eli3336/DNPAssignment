@@ -20,7 +20,6 @@
 
 @code {
     private string username = "";
-    private string password = "";
     private string resultMsg = "";
     private string color = "";
     
@@ -30,7 +29,7 @@
 
         try
         {
-            await userService.Create(new UserCreationDto(username, password));
+            await userService.Create(new UserCreationDto(username));
             username = "";
             resultMsg = "User successfully created";
             color = "green";

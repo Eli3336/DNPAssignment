@@ -1,64 +1,71 @@
 is_global = true
 build_property.TargetFramework = net6.0
 build_property.TargetPlatformMinVersion = 
-build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
-build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
-build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = BlazorWasm
-build_property.RootNamespace = BlazorWasm
-build_property.ProjectDir = C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorWasm\
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = BlazorWASM
+build_property.RootNamespace = BlazorWASM
+build_property.ProjectDir = D:\Programacion\3er Semestre\DNP\WasmTodo-020_EfcAddUser\BlazorWASM\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorWasm
+build_property.MSBuildProjectDirectory = D:\Programacion\3er Semestre\DNP\WasmTodo-020_EfcAddUser\BlazorWASM
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment/DNPAssignment/BlazorWasm/App.razor]
+[D:/Programacion/3er Semestre/DNP/WasmTodo-020_EfcAddUser/BlazorWASM/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment/DNPAssignment/BlazorWasm/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[D:/Programacion/3er Semestre/DNP/WasmTodo-020_EfcAddUser/BlazorWASM/Pages/CreateTodo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVG9kby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment/DNPAssignment/BlazorWasm/Pages/CreateUser.razor]
+[D:/Programacion/3er Semestre/DNP/WasmTodo-020_EfcAddUser/BlazorWASM/Pages/CreateUser.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVXNlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment/DNPAssignment/BlazorWasm/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[D:/Programacion/3er Semestre/DNP/WasmTodo-020_EfcAddUser/BlazorWASM/Pages/EditTodo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFRvZG8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment/DNPAssignment/BlazorWasm/Pages/Index.razor]
+[D:/Programacion/3er Semestre/DNP/WasmTodo-020_EfcAddUser/BlazorWASM/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment/DNPAssignment/BlazorWasm/Shared/SurveyPrompt.razor]
+[D:/Programacion/3er Semestre/DNP/WasmTodo-020_EfcAddUser/BlazorWASM/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment/DNPAssignment/BlazorWasm/_Imports.razor]
+[D:/Programacion/3er Semestre/DNP/WasmTodo-020_EfcAddUser/BlazorWASM/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment/DNPAssignment/BlazorWasm/Shared/MainLayout.razor]
+[D:/Programacion/3er Semestre/DNP/WasmTodo-020_EfcAddUser/BlazorWASM/Pages/UIComponents/FancyCheckBox.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUlDb21wb25lbnRzXEZhbmN5Q2hlY2tCb3gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-6xhdtlkuo4
+
+[D:/Programacion/3er Semestre/DNP/WasmTodo-020_EfcAddUser/BlazorWASM/Pages/UIComponents/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUlDb21wb25lbnRzXE1vZGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-sp2tgkowl2
+
+[D:/Programacion/3er Semestre/DNP/WasmTodo-020_EfcAddUser/BlazorWASM/Pages/ViewTodos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1RvZG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-p9dzi0ojcg
+
+[D:/Programacion/3er Semestre/DNP/WasmTodo-020_EfcAddUser/BlazorWASM/Pages/ViewUsers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1VzZXJzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-b8bn5keb44
+
+[D:/Programacion/3er Semestre/DNP/WasmTodo-020_EfcAddUser/BlazorWASM/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-2ar46ifnr2
+build_metadata.AdditionalFiles.CssScope = b-jk00ermrez
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment/DNPAssignment/BlazorWasm/Shared/NavMenu.razor]
+[D:/Programacion/3er Semestre/DNP/WasmTodo-020_EfcAddUser/BlazorWASM/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-oede2f5y32
-
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment/DNPAssignment/BlazorWasm/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment/DNPAssignment/BlazorWasm/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment/DNPAssignment/BlazorWasm/Pages/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = b-69rflur3ak

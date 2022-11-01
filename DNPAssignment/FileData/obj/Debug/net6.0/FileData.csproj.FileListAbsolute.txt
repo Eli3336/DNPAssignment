@@ -1,0 +1,17 @@
+D:\RiderProjects\TodoAppWasm\FileData\obj\Debug\net6.0\FileData.csproj.AssemblyReference.cache
+D:\RiderProjects\TodoAppWasm\FileData\obj\Debug\net6.0\FileData.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\TodoAppWasm\FileData\obj\Debug\net6.0\FileData.AssemblyInfoInputs.cache
+D:\RiderProjects\TodoAppWasm\FileData\obj\Debug\net6.0\FileData.AssemblyInfo.cs
+D:\RiderProjects\TodoAppWasm\FileData\obj\Debug\net6.0\FileData.csproj.CoreCompileInputs.cache
+D:\RiderProjects\TodoAppWasm\FileData\bin\Debug\net6.0\FileData.deps.json
+D:\RiderProjects\TodoAppWasm\FileData\bin\Debug\net6.0\FileData.dll
+D:\RiderProjects\TodoAppWasm\FileData\bin\Debug\net6.0\FileData.pdb
+D:\RiderProjects\TodoAppWasm\FileData\bin\Debug\net6.0\Application.dll
+D:\RiderProjects\TodoAppWasm\FileData\bin\Debug\net6.0\Domain.dll
+D:\RiderProjects\TodoAppWasm\FileData\bin\Debug\net6.0\Application.pdb
+D:\RiderProjects\TodoAppWasm\FileData\bin\Debug\net6.0\Domain.pdb
+D:\RiderProjects\TodoAppWasm\FileData\obj\Debug\net6.0\FileData.csproj.CopyComplete
+D:\RiderProjects\TodoAppWasm\FileData\obj\Debug\net6.0\FileData.dll
+D:\RiderProjects\TodoAppWasm\FileData\obj\Debug\net6.0\refint\FileData.dll
+D:\RiderProjects\TodoAppWasm\FileData\obj\Debug\net6.0\FileData.pdb
+D:\RiderProjects\TodoAppWasm\FileData\obj\Debug\net6.0\ref\FileData.dll

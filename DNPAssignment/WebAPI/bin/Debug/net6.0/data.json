@@ -1,0 +1,40 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "Troel",
+      "Todos": null
+    },
+    {
+      "Id": 2,
+      "UserName": "Jakob",
+      "Todos": null
+    },
+    {
+      "Id": 3,
+      "UserName": "Ana",
+      "Todos": null
+    },
+    {
+      "Id": 4,
+      "UserName": "Bob",
+      "Todos": null
+    },
+    {
+      "Id": 5,
+      "UserName": "AlfredEinstein",
+      "Todos": null
+    },
+    {
+      "Id": 6,
+      "UserName": "Boib",
+      "Todos": null
+    },
+    {
+      "Id": 7,
+      "UserName": "bobii",
+      "Todos": null
+    }
+  ],
+  "Todos": []
+}

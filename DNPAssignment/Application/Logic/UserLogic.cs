@@ -1,9 +1,9 @@
-using Domain.DaoInterfaces;
-using Domain.LogicInterfaces;
-using Entities.DTOs;
-using Entities.Models;
+﻿using Application.DaoInterfaces;
+using Application.LogicInterfaces;
+using Domain.DTOs;
+using Domain.Models;
 
-namespace Domain.Logic;
+namespace Application.Logic;
 
 public class UserLogic : IUserLogic
 {
@@ -14,24 +14,33 @@ public class UserLogic : IUserLogic
         this.userDao = userDao;
     }
 
-    public async Task<User> CreateAsync(UserCreationDto userToCreate)
+    public Task<User> Create(UserCreationDto dto)
     {
-        User? existing = await userDao.GetByUsernameAsync(userToCreate.UserName);
+        throw new NotImplementedException();
+    }
+
+    public Task<IEnumerable<User>> GetAsync(SearchUserParametersDto searchParameters)
+    {
+        return userDao.GetAsync(searchParameters);
+    }
+    public async Task<User> CreateAsync(UserCreationDto dto)
+    {
+        User? existing = await userDao.GetByUsernameAsync(dto.UserName);
         if (existing != null)
             throw new Exception("Username already taken!");
 
-        ValidateData(userToCreate);
+        ValidateData(dto);
         User toCreate = new User
         {
-            UserName = userToCreate.UserName,
-            Password = userToCreate.Password
+            UserName = dto.UserName,
+            Password = dto.Password
         };
-    
+        
         User created = await userDao.CreateAsync(toCreate);
-    
+        
         return created;
     }
-    
+
     private static void ValidateData(UserCreationDto userToCreate)
     {
         string userName = userToCreate.UserName;
@@ -41,13 +50,14 @@ public class UserLogic : IUserLogic
             throw new Exception("Username must be at least 3 characters!");
 
         if (userName.Length > 15)
-            throw new Exception("Username must be less than 16 characters!");
+            throw new Exception("Username must be less than 16 characters!"); 
         
         if (password.Length < 5)
-            throw new Exception("Length must be at least 5 characters!");
+            throw new Exception("must be at least 5 characters!");
 
         if (password.Length > 15)
-            throw new Exception("Length must be less than 16 characters!");
-        
+            throw new Exception("must be less than 16 characters!");
     }
+    
+    
 }

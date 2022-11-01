@@ -1,0 +1,12 @@
+D:\RiderProjects\TodoAppWasm\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\RiderProjects\TodoAppWasm\Domain\bin\Debug\net6.0\Domain.dll
+D:\RiderProjects\TodoAppWasm\Domain\bin\Debug\net6.0\Domain.pdb
+D:\RiderProjects\TodoAppWasm\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\RiderProjects\TodoAppWasm\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\TodoAppWasm\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\RiderProjects\TodoAppWasm\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\RiderProjects\TodoAppWasm\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\RiderProjects\TodoAppWasm\Domain\obj\Debug\net6.0\Domain.dll
+D:\RiderProjects\TodoAppWasm\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\RiderProjects\TodoAppWasm\Domain\obj\Debug\net6.0\Domain.pdb
+D:\RiderProjects\TodoAppWasm\Domain\obj\Debug\net6.0\ref\Domain.dll

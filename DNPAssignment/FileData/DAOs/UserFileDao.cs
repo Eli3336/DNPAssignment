@@ -2,11 +2,13 @@ using Domain.DaoInterfaces;
 using Entities.Models;
 using FileData;
 
-public class UserFileDAO : IUserDao
+namespace FileData.DAOs;
+
+public class UserFileDao : IUserDao
 {
     private readonly FileContext context;
 
-    public UserFileDAO(FileContext context)
+    public UserFileDao(FileContext context)
     {
         this.context = context;
     }

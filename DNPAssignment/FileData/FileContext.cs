@@ -9,15 +9,6 @@ public class FileContext
 
     private DataContainer? dataContainer;
 
-    public ICollection<Todo> Todos
-    {
-        get
-        {
-            LazyLoadData();
-            return dataContainer!.Todos;
-        }
-    }
-
     public ICollection<User> Users
     {
         get

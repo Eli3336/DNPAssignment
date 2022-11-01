@@ -35,14 +35,4 @@ public class UserFileDAO : IUserDao
         );
         return Task.FromResult(existing);
     }
-
-    public Task<User?> GetByUsername(object userName)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<User> Create(User toCreate)
-    {
-        throw new NotImplementedException();
-    }
 }

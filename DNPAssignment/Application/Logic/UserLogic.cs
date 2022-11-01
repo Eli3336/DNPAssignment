@@ -16,7 +16,7 @@ public class UserLogic : IUserLogic
 
     public async Task<User> CreateAsync(UserCreationDto userToCreate)
     {
-        User? existing = await userDao.GetByUsername(userToCreate.UserName);
+        User? existing = await userDao.GetByUsernameAsync(userToCreate.UserName);
         if (existing != null)
             throw new Exception("Username already taken!");
 
@@ -26,7 +26,7 @@ public class UserLogic : IUserLogic
             UserName = userToCreate.UserName
         };
     
-        User created = await userDao.Create(toCreate);
+        User created = await userDao.CreateAsync(toCreate);
     
         return created;
     }

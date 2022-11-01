@@ -1,27 +1,28 @@
 ﻿
 
 using System.ComponentModel.DataAnnotations;
-using System.Text.Json;
 using Domain.Models;
 
 namespace WebApi.Services;
 
 public class AuthService:IAuthService
 {
-    private List<User> users = new List<User>();
-
-    public AuthService()
+    private readonly IList<User> users = new List<User>
     {
-        string content = File.ReadAllText("data.json");
-        users = JsonSerializer.Deserialize<List<User>>(content);
-    }
-
+        new User
+        {
+            UserName = "Ana",
+            Password = "banana"
+        },
+        new User
+        {
+            UserName="Bob",
+            Password = "password"
+        }
+    };
     public Task<User> ValidateUser(string username, string password)
     {
-       
-        string content = File.ReadAllText("data.json");
-        users = JsonSerializer.Deserialize<List<User>>(content);
-        
+
         User? existingUser = users.FirstOrDefault(u => 
             u.UserName.Equals(username, StringComparison.OrdinalIgnoreCase));
         

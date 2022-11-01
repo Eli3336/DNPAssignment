@@ -3,57 +3,17 @@
     {
       "Id": 1,
       "UserName": "Troel",
-      "Password": null,
-      "Todos": null
+      "Password": "troelson"
     },
     {
       "Id": 2,
       "UserName": "Jakob",
-      "Password": null,
-      "Todos": null
+      "Password": "password"
     },
     {
       "Id": 3,
       "UserName": "Ana",
-      "Password": null,
-      "Todos": null
-    },
-    {
-      "Id": 4,
-      "UserName": "Bob",
-      "Password": null,
-      "Todos": null
-    },
-    {
-      "Id": 5,
-      "UserName": "AlfredEinstein",
-      "Password": null,
-      "Todos": null
-    },
-    {
-      "Id": 6,
-      "UserName": "Boib",
-      "Password": null,
-      "Todos": null
-    },
-    {
-      "Id": 7,
-      "UserName": "bobii",
-      "Password": null,
-      "Todos": null
-    },
-    {
-      "Id": 8,
-      "UserName": "bobob",
-      "Password": "bobobobob",
-      "Todos": null
-    },
-    {
-      "Id": 9,
-      "UserName": "boaba",
-      "Password": "boabaaaa",
-      "Todos": null
+      "Password": "banana"
     }
-  ],
-  "Todos": []
+  ]
 }

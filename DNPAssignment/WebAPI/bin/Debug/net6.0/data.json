@@ -21,5 +21,16 @@
       "Password": "string"
     }
   ],
-  "Posts": null
+  "Posts": [
+    {
+      "Id": 1,
+      "Title": "Welcome to the forum!",
+      "Body": "You can post as long as you are logged in!"
+    },
+    {
+      "Id": 2,
+      "Title": "Ohhhh yeessss",
+      "Body": "OOgmgggggggggggg"
+    }
+  ]
 }

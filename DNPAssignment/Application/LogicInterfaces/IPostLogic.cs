@@ -1,9 +1,8 @@
 ﻿using Domain.DTOs;
-using Domain.Models;
 
 namespace Application.LogicInterfaces;
 
-public interface IPostLogic
+public class IPostLogic
 {
     Task<Post> CreateAsync(PostCreationDto userToCreate);
 }

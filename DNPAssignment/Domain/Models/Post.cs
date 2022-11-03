@@ -2,10 +2,13 @@
 
 public class Post
 {
+    private string title { get; set; }
+    private User user { get; set; }
+    private string body { get; set; }
     
-    public int Id { get; set; }
-    public string Title { get; set; }
-    public User user { get; set; }
-    public string Body { get; set; }
-
+    
+    
+    
+    
+    
 }

@@ -34,3 +34,15 @@ C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\Domain\obj\
 C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\Domain\obj\Debug\net6.0\refint\Domain.dll
 C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\Domain\obj\Debug\net6.0\Domain.pdb
 C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\Programacion\DNPAssignment\DNPAssignment\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\Programacion\DNPAssignment\DNPAssignment\Domain\bin\Debug\net6.0\Domain.dll
+D:\Programacion\DNPAssignment\DNPAssignment\Domain\bin\Debug\net6.0\Domain.pdb
+D:\Programacion\DNPAssignment\DNPAssignment\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\Programacion\DNPAssignment\DNPAssignment\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacion\DNPAssignment\DNPAssignment\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\Programacion\DNPAssignment\DNPAssignment\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\Programacion\DNPAssignment\DNPAssignment\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\Programacion\DNPAssignment\DNPAssignment\Domain\obj\Debug\net6.0\Domain.dll
+D:\Programacion\DNPAssignment\DNPAssignment\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\Programacion\DNPAssignment\DNPAssignment\Domain\obj\Debug\net6.0\Domain.pdb
+D:\Programacion\DNPAssignment\DNPAssignment\Domain\obj\Debug\net6.0\ref\Domain.dll

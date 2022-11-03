@@ -50,4 +50,14 @@ public class PostFileDao : IPostDao
         return Task.FromResult(posts);
     }
     
+    
+    public Task<IEnumerable<Post>> GetAllPostsAsync()
+    {
+        
+        IEnumerable<Post> posts = context.Posts.AsEnumerable();
+        
+
+        return Task.FromResult(posts);
+    }
+    
 }

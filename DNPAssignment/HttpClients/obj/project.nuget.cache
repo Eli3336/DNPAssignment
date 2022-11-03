@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "K9QYZwgCOA4gyKkDMy0UNs3cIpA1k6iAxyZYCdVedB7NDyqNRl/EjLLKE0Eqt+NUp/yNXmE0e0o6Ul/EdCSKeg==",
+  "dgSpecHash": "4WVUzPDV+Ry5EDplJWWJyYU+32aW1y5niPmpBEhiKzJXFjIJQLFjvTwgah4kYlZqrwKwJJbhme6b4J+6zwEtgw==",
   "success": true,
-  "projectFilePath": "D:\\Programacion\\DNPAssignment\\DNPAssignment\\HttpClients\\HttpClients.csproj",
+  "projectFilePath": "C:\\Users\\mihai\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\HttpClients.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\luisd\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.0-rc.2.22476.2\\microsoft.aspnetcore.authorization.7.0.0-rc.2.22476.2.nupkg.sha512",
-    "C:\\Users\\luisd\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.0-rc.2.22476.2\\microsoft.aspnetcore.metadata.7.0.0-rc.2.22476.2.nupkg.sha512",
-    "C:\\Users\\luisd\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0-rc.2.22472.3\\microsoft.extensions.dependencyinjection.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
-    "C:\\Users\\luisd\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0-rc.2.22472.3\\microsoft.extensions.logging.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
-    "C:\\Users\\luisd\\.nuget\\packages\\microsoft.extensions.options\\7.0.0-rc.2.22472.3\\microsoft.extensions.options.7.0.0-rc.2.22472.3.nupkg.sha512",
-    "C:\\Users\\luisd\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-rc.2.22472.3\\microsoft.extensions.primitives.7.0.0-rc.2.22472.3.nupkg.sha512",
-    "C:\\Users\\luisd\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.0-rc.2.22476.2\\microsoft.aspnetcore.authorization.7.0.0-rc.2.22476.2.nupkg.sha512",
+    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.0-rc.2.22476.2\\microsoft.aspnetcore.metadata.7.0.0-rc.2.22476.2.nupkg.sha512",
+    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0-rc.2.22472.3\\microsoft.extensions.dependencyinjection.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0-rc.2.22472.3\\microsoft.extensions.logging.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.extensions.options\\7.0.0-rc.2.22472.3\\microsoft.extensions.options.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-rc.2.22472.3\\microsoft.extensions.primitives.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\mihai\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

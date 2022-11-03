@@ -37,7 +37,7 @@ public class PostLogic : IPostLogic
         return postDao.GetAsync(searchParameters);
     }
     
-    public Task<IEnumerable<Post>> GetAllPostsAsync()
+    public Task<List<string>> GetAllPostsAsync()
     {
         return postDao.GetAllPostsAsync();
     }

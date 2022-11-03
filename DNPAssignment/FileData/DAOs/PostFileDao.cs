@@ -51,13 +51,19 @@ public class PostFileDao : IPostDao
     }
     
     
-    public Task<IEnumerable<Post>> GetAllPostsAsync()
+    public Task<List<string>> GetAllPostsAsync()
     {
         
         IEnumerable<Post> posts = context.Posts.AsEnumerable();
-        
 
-        return Task.FromResult(posts);
+        List<string> titles = new List<string>();
+
+        foreach (Post post in posts)
+        {
+            titles.Add(post.Title);
+        }
+
+        return Task.FromResult(titles);
     }
     
 }

@@ -32,7 +32,7 @@ public class PostsController : ControllerBase
     }
     
     
-    [HttpGet]
+    [HttpGet("{title}")]
     public async Task<ActionResult<IEnumerable<Post>>> GetAsync([FromQuery] string? title)
     {
         try
@@ -50,12 +50,11 @@ public class PostsController : ControllerBase
     
     
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Post>>> GetAllPostsAsync()
+    public async Task<ActionResult<List<string>>> GetAllPostsAsync()
     {
         try
         {
-         
-            IEnumerable<Post> posts = await postLogic.GetAllPostsAsync();
+            List<string> posts = await postLogic.GetAllPostsAsync();
             return Ok(posts);
         }
         catch (Exception e)

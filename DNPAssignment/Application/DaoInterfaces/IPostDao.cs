@@ -10,7 +10,7 @@ public interface IPostDao
     
     public Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto? searchParameters);
     
-    public Task<IEnumerable<Post>> GetAllPostsAsync();
+    public Task<List<string>> GetAllPostsAsync();
 
 
 }

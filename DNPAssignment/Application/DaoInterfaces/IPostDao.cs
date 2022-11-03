@@ -1,7 +1,9 @@
-﻿namespace Application.DaoInterfaces;
+﻿using Domain.Models;
 
-public class IPostDao
+namespace Application.DaoInterfaces;
+
+public interface IPostDao
 {
     Task<Post> CreateAsync(Post post);
-    Task<Post?> GetByUsernameAsync(string title);
+    Task<Post?> GetByTitleAsync(string title);
 }

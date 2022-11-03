@@ -2,7 +2,7 @@
 
 public class SearchUserParametersDto
 {
-    public string? UsernameContains { get;  }
+    public string? UsernameContains { get; }
 
     public SearchUserParametersDto(string? usernameContains)
     {

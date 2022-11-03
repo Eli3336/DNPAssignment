@@ -23,6 +23,7 @@ public class UserLogic : IUserLogic
     {
         return userDao.GetAsync(searchParameters);
     }
+
     public async Task<User> CreateAsync(UserCreationDto dto)
     {
         User? existing = await userDao.GetByUsernameAsync(dto.UserName);

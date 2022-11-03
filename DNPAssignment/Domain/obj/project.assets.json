@@ -320,41 +320,25 @@
     ]
   },
   "packageFolders": {
-<<<<<<< Updated upstream
     "C:\\Users\\luisd\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
-=======
-    "C:\\Users\\mihai\\.nuget\\packages\\": {}
->>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< Updated upstream
       "projectUniqueName": "D:\\Programacion\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj",
       "projectName": "Domain",
       "projectPath": "D:\\Programacion\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\luisd\\.nuget\\packages\\",
       "outputPath": "D:\\Programacion\\DNPAssignment\\DNPAssignment\\Domain\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\mihai\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj",
-      "projectName": "Domain",
-      "projectPath": "C:\\Users\\mihai\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\mihai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mihai\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Domain\\obj\\",
->>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< Updated upstream
         "C:\\Users\\luisd\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
-        "C:\\Users\\mihai\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> Stashed changes
       ],
       "originalTargetFrameworks": [
         "net6.0"

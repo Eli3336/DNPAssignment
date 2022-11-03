@@ -1,6 +1,5 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
   "dgSpecHash": "Dv7tVh+wbDgjK0eT0LMtkuLlHOs0SyCwCLH/5dc815uRwlimA+8SGDNCBM1kbKprrmxHIK1AikTIbj5ZzZ+K4A==",
   "success": true,
   "projectFilePath": "D:\\Programacion\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj",
@@ -12,19 +11,6 @@
     "C:\\Users\\luisd\\.nuget\\packages\\microsoft.extensions.options\\7.0.0-rc.2.22472.3\\microsoft.extensions.options.7.0.0-rc.2.22472.3.nupkg.sha512",
     "C:\\Users\\luisd\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-rc.2.22472.3\\microsoft.extensions.primitives.7.0.0-rc.2.22472.3.nupkg.sha512",
     "C:\\Users\\luisd\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
-=======
-  "dgSpecHash": "SuswBiYunBIQ4wy2BYjblRDJMmfS5jjE3Xw7ZQCj1zl817BZvUdWpKsPPOKl5KQmNVLRRE9AiHfxPtH4xcDp2g==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\mihai\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.0-rc.2.22476.2\\microsoft.aspnetcore.authorization.7.0.0-rc.2.22476.2.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.0-rc.2.22476.2\\microsoft.aspnetcore.metadata.7.0.0-rc.2.22476.2.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0-rc.2.22472.3\\microsoft.extensions.dependencyinjection.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0-rc.2.22472.3\\microsoft.extensions.logging.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.extensions.options\\7.0.0-rc.2.22472.3\\microsoft.extensions.options.7.0.0-rc.2.22472.3.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-rc.2.22472.3\\microsoft.extensions.primitives.7.0.0-rc.2.22472.3.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
->>>>>>> Stashed changes
   ],
   "logs": []
 }

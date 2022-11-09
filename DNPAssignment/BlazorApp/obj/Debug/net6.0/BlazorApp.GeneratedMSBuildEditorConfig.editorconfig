@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment/DNPAssignment/BlazorApp/Pages/PostPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment/DNPAssignment/BlazorApp/Pages/ViewPosts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Bvc3RzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

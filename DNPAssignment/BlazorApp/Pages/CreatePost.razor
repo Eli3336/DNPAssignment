@@ -38,7 +38,7 @@
         msg = "";
         try
         {
-           // selectedUserName = await userService.GetUserLoggedin();
+           selectedUserName = "Ana";
         }
         catch (Exception e)
         {
@@ -50,11 +50,6 @@
     private async Task Create()
     {
         msg = "";
-        if (selectedUserName == null)
-        {
-            msg = "You must be logged in!";
-            return;
-        }
         if (string.IsNullOrEmpty(postTitle))
         {
             msg = "Title cannot be empty!";
@@ -65,17 +60,20 @@
             msg = "Body cannot be empty!";
             return;
         }
-
         try
-        {
-            PostCreationDto dto = new(selectedUserName, postTitle, body);
-            await postService.CreateAsync(dto);
-            navMgr.NavigateTo("/");
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            msg = e.Message;
-        }
+            {
+                Console.WriteLine("enter try");
+                PostCreationDto dto = new(selectedUserName, postTitle, body);
+                Console.WriteLine("dto works");
+                await postService.CreateAsync(dto);
+                Console.WriteLine("create works");
+                navMgr.NavigateTo("/ViewPosts");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                msg = e.Message;
+            }
+        Console.WriteLine("skipped");
     }
 }

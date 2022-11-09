@@ -29,6 +29,12 @@
       "UserName": "Bob",
       "Password": "TheBuilder",
       "SecurityLevel": 0
+    },
+    {
+      "Id": 6,
+      "UserName": "Sara",
+      "Password": "ScrumMommy",
+      "SecurityLevel": 0
     }
   ],
   "Posts": [

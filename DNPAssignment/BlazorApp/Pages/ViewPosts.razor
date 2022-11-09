@@ -2,12 +2,10 @@
 @using Domain.Models
 @using HttpClients.ClientInterfaces
 @inject IPostService postService
+@inject NavigationManager navMgr
 @attribute [Authorize]
 <h3>ViewPosts</h3>
 
-<div>
-    <button @onclick="LoadPosts">Load</button>
-</div>
 
 @if (posts == null)
 {
@@ -20,8 +18,8 @@ else
 {
     
         @foreach (var item in posts)
-        {<div>
-             <div>@item.</div>
+        {<div @onclick="@(() => navMgr.NavigateTo($"/PostPage/{item.Title}"))">
+             <div>@item.User.UserName</div>
              <div>@item.Title</div>
          </div>
         }
@@ -33,14 +31,14 @@ else
 }
 
 @code {
-    private IEnumerable<Post>? posts;
+    private ICollection<Post>? posts;
     private string msg = "";
 
-    private async Task LoadPosts()
+    protected override async Task OnInitializedAsync()
     {
         try
         {
-            posts = await postService.GetAsync(null, null, null);
+            posts = await postService.GetAsync(null, null);
         }
         catch (Exception e)
         {

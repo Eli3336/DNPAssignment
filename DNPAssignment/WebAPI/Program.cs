@@ -40,6 +40,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     };
 });
 
+AuthorizationPolicies.AddPolicies(builder.Services);
+
+
 
 builder.Services.AddScoped<IAuthService, AuthService>();
 var app = builder.Build();
@@ -59,8 +62,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
 app.UseAuthentication();
+app.UseAuthorization();
+
 
 app.MapControllers();
 

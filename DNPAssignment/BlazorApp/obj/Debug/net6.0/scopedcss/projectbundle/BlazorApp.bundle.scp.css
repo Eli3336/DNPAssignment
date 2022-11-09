@@ -1,3 +1,41 @@
+/* /Pages/Login.razor.rz.scp.css */
+
+.card1[b-c956fem5qt] {
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 250px;
+    padding: 25px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.card2[b-c956fem5qt] {
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 250px;
+    padding: 25px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.field[b-c956fem5qt] {
+    margin-top: 20px;
+}
+
+.acceptbtn[b-c956fem5qt] {
+    background-color: mediumpurple;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button-row[b-c956fem5qt]{
+    margin-top: 15px;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-3dsd3z3yec] {
     position: relative;

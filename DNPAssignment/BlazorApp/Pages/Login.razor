@@ -2,7 +2,12 @@
 @page "/login"
 @using Domain.DTOs
 @using HttpClients.ClientInterfaces
+@using BlazorApp.Services.Http
 @inject IUserService userService;
+@inject IAuthService authService
+@inject NavigationManager navMgr
+
+
 
 <h3></h3>
 <div class="toLine">
@@ -64,6 +69,21 @@
             Console.WriteLine(e);
             resultMsg = e.Message;
             color = "red";
+        }
+    }
+    
+    private async Task LoginAsync()
+    {
+        resultMsg = "";
+        try
+        {
+            await authService.LoginAsync(username, password);
+            navMgr.NavigateTo("/");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            resultMsg = $"Error: {e.Message}";
         }
     }
 }

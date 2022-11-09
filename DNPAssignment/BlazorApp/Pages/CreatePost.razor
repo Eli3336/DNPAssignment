@@ -5,6 +5,7 @@
 @inject IUserService userService
 @inject IPostService postService
 @inject NavigationManager navMgr
+@attribute [Authorize]
 
 <div class="card">
     @if (users == null)

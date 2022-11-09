@@ -13,4 +13,7 @@ builder.Services.AddScoped(
             BaseAddress = new Uri("https://localhost:7162") 
         }
 );
+
+AuthorizationPolicies.AddPolicies(builder.Services);
+
 await builder.Build().RunAsync();

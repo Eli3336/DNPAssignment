@@ -11,11 +11,11 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7162") });
-//builder.Services.AddScoped<IPostService, PostHttpClient>();
+builder.Services.AddScoped<IPostService, PostHttpClient>();
 
-//builder.Services.AddScoped<IAuthService, JwtAuthService>();
-//builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthProvider>();
+builder.Services.AddScoped<IAuthService, JwtAuthService>();
+builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthProvider>();
 
-// add policies: AuthorizationPolicies.AddPolicies(builder.Services);
+AuthorizationPolicies.AddPolicies(builder.Services);
 
 await builder.Build().RunAsync();

@@ -8,7 +8,7 @@ namespace WebAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-[Authorize]
+//[Authorize]
 public class PostsController : ControllerBase
 {
     private readonly IPostLogic postLogic;

@@ -40,7 +40,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     };
 });
 
-    AuthorizationPolicies.AddPolicies(builder.Services);
+    //AuthorizationPolicies.AddPolicies(builder.Services);
 
 
 

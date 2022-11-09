@@ -3,39 +3,67 @@
     {
       "Id": 1,
       "UserName": "Troel",
-      "Password": "troelson"
+      "Password": "troelson",
+      "SecurityLevel": 0
     },
     {
       "Id": 2,
       "UserName": "Jakob",
-      "Password": "password"
+      "Password": "password",
+      "SecurityLevel": 0
     },
     {
       "Id": 3,
       "UserName": "Ana",
-      "Password": "banana"
+      "Password": "banana",
+      "SecurityLevel": 0
     },
     {
       "Id": 4,
       "UserName": "Elly",
-      "Password": "string"
+      "Password": "string",
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 5,
+      "UserName": "Bob",
+      "Password": "TheBuilder",
+      "SecurityLevel": 0
     }
   ],
   "Posts": [
     {
+      "User": {
+        "Id": 4,
+        "UserName": "Elly",
+        "Password": "string",
+        "SecurityLevel": 0
+      },
       "Id": 1,
       "Title": "Welcome to the forum!",
-      "Body": "You can post as long as you are logged in!"
+      "Body": "Hello new people! Hope you will enjoy it here!"
     },
     {
+      "User": {
+        "Id": 1,
+        "UserName": "Troel",
+        "Password": "troelson",
+        "SecurityLevel": 0
+      },
       "Id": 2,
-      "Title": "Ohhhh yeessss",
-      "Body": "OOgmgggggggggggg"
+      "Title": "Peeeeooplee",
+      "Body": "where are myyy people??"
     },
     {
+      "User": {
+        "Id": 2,
+        "UserName": "Jakob",
+        "Password": "password",
+        "SecurityLevel": 0
+      },
       "Id": 3,
-      "Title": "Hello ppeople",
-      "Body": "where are my people"
+      "Title": "omgggggggggg guyysss",
+      "Body": "you won\u0027t believe what happened to me!!"
     }
   ]
 }

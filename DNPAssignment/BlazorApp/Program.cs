@@ -29,6 +29,7 @@ builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthProvider>();
 AuthorizationPolicies.AddPolicies(builder.Services);
 
 builder.Services.AddScoped<IUserService, UserHttpClient>();
+builder.Services.AddScoped<IPostService, PostHttpClient>();
 
 
 await builder.Build().RunAsync();

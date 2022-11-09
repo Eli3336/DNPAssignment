@@ -6,4 +6,8 @@ Content-Type: application/json
 { "Username" : "Ana", "Password" : "banana" }
 
 
+###
+
+GET http://localhost:7162/Posts
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI5MGUzZWUxYS04OTk0LTQyYmItYjM1YS0yYTA0MzE2NTg1YTYiLCJpYXQiOiIwOS1Ob3YtMjIgMTo1NjowOCBQTSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJBbmEiLCJleHAiOjE2NjgwMDU3NjgsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.AxhY_muMKl7fh8I1d6jgKoHtS0RB_yM2_HbM8nqVi60tc_WVNkzT-HjfvF5wEqf8NanjI_qfiqAbxlblHk5T7A
 

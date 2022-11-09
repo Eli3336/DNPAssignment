@@ -51,4 +51,9 @@ public class UserHttpClient : IUserService
         })!;
         return users;
     }
+
+    public Task<string> GetUserLoggedin()
+    {
+        string uri = "/users"
+    }
 }

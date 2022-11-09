@@ -1,0 +1,39 @@
+﻿@page "/Post/{title:string}"
+@using Domain.Models
+@using HttpClients.ClientInterfaces
+@using Domain.DTOs
+@inject IUserService userService
+@inject IPostService postService
+@inject NavigationManager navMgr
+<h3>Post</h3>
+
+    <div>
+    <div>@post.User.UserName</div>
+    <div>@post.Title</div>
+    <div>@post.Body</div>
+    </div>
+
+@code {
+    [Parameter]
+    public string title { get; set; }
+
+    private Domain.Models.Post? post;
+    private string msg = "";
+    
+    
+    protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+           
+            post = await postService.GetByTitleAsync(title);
+            
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}

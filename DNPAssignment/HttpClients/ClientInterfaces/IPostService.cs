@@ -7,9 +7,11 @@ public interface IPostService
 {
     Task<ICollection<Post>> GetAsync(
         string? userName,
-        string? titleContains, 
-        string? body
+        string? titleContains
     );
 
     Task CreateAsync(PostCreationDto dto);
+
+    Task<Post?> GetByTitleAsync(string title);
+
 }

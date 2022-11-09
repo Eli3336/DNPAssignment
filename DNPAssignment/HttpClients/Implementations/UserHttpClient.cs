@@ -52,8 +52,9 @@ public class UserHttpClient : IUserService
         return users;
     }
 
-    public Task<string> GetUserLoggedin()
-    {
-        string uri = "/users"
-    }
+    //public async Task<string> GetUserLoggedin()
+    //{
+       // string user = await client.GetUserLoggedin();
+       // return user;
+   // }
 }

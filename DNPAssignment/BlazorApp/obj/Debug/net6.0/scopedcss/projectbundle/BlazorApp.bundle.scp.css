@@ -63,6 +63,11 @@
 .button-row[b-c956fem5qt]{
     margin-top: 15px;
 }
+/* /Pages/LoginButtons.razor.rz.scp.css */
+.icon[b-4b02np3lx0] {
+    width: 30px;
+    cursor: pointer;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-3dsd3z3yec] {
     position: relative;

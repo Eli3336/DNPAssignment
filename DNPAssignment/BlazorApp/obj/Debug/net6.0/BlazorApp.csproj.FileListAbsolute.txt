@@ -1666,3 +1666,4 @@ C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\o
 C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\scopedcss\projectbundle\BlazorApp.bundle.scp.css
 C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\BlazorApp.csproj.CopyComplete
 C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\ref\BlazorApp.dll
+C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\LoginButtons.razor.rz.scp.css

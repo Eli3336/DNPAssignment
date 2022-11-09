@@ -12,4 +12,10 @@ public class TestController : ControllerBase
     {
         return Ok("This was accepted as authorized");
     }
+    
+    [HttpGet("allowanon"), AllowAnonymous]
+    public ActionResult GetAsAnon()
+    {
+        return Ok("This was accepted as anonymous");
+    }
 }

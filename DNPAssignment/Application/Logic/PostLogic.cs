@@ -8,6 +8,7 @@ namespace Application.Logic;
 public class PostLogic : IPostLogic
 {
     private readonly IPostDao postDao;
+    private readonly IUserDao userDao;
 
     public PostLogic(IPostDao postDao)
     {
@@ -16,19 +17,15 @@ public class PostLogic : IPostLogic
 
     public async Task<Post> CreateAsync(PostCreationDto dto)
     {
-        Post? existing = await postDao.GetByTitleAsync(dto.Title);
-        if (existing != null)
-            throw new Exception("Title already taken!");
+        User? user = await userDao.GetByUsernameAsync(dto.UserName);
+        if (user == null)
+        {
+            throw new Exception($"User with id {dto.UserName} was not found.");
+        }
 
         ValidateData(dto);
-        Post toCreate = new Post
-        {
-            Title = dto.Title,
-            Body = dto.Body
-        };
-    
-        Post created = await postDao.CreateAsync(toCreate);
-    
+        Post post = new Post(user, dto.Title, dto.Body);
+        Post created = await postDao.CreateAsync(post);
         return created;
     }
 

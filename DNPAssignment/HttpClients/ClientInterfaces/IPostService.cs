@@ -1,4 +1,5 @@
-﻿using Domain.Models;
+﻿using Domain.DTOs;
+using Domain.Models;
 
 namespace HttpClients.ClientInterfaces;
 
@@ -11,5 +12,6 @@ public interface IPostService
         string? titleContains, 
         string? body
     );
-    
+
+    Task CreateAsync(PostCreationDto dto);
 }

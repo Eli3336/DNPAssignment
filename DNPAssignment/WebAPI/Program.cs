@@ -40,7 +40,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     };
 });
 
-AuthorizationPolicies.AddPolicies(builder.Services);
+    //AuthorizationPolicies.AddPolicies(builder.Services);
 
 
 
@@ -52,6 +52,7 @@ app.UseCors(x => x
     .AllowAnyHeader()
     .SetIsOriginAllowed(origin => true) // allow any origin
     .AllowCredentials());
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

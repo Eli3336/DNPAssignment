@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BLtXe8nYs7hOheSQrX1nRUTB9e1u3dnbL3tFtSAcyfA=",
+  "Hash": "6/4B8gM6jk8Ex2hu/0nYolnETGcy4W5/OdIua6ihkjc=",
   "Source": "BlazorWasm",
   "BasePath": "/",
   "Mode": "Root",
@@ -170,6 +170,40 @@
       "OriginalItemSpec": "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.8\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
+      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HttpClients.dll",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/HttpClients.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\bin\\Debug\\net6.0\\HttpClients.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HttpClients.pdb",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/HttpClients.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\bin\\Debug\\net6.0\\HttpClients.pdb"
+    },
+    {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -252,7 +286,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.0-rc.2.22476.2\\lib\\netstandard2.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.0\\lib\\netstandard2.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
@@ -354,7 +388,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.0-rc.2.22476.2\\lib\\netstandard2.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.0\\lib\\netstandard2.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -473,7 +507,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0-rc.2.22472.3\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
@@ -558,7 +592,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0-rc.2.22472.3\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -592,7 +626,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.extensions.options\\7.0.0-rc.2.22472.3\\lib\\net6.0\\Microsoft.Extensions.Options.dll"
+      "OriginalItemSpec": "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
@@ -609,7 +643,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-rc.2.22472.3\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
+      "OriginalItemSpec": "C:\\Users\\Bianca\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
     },
     {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
@@ -3485,40 +3519,6 @@
       "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Win32.Registry.dll"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\+0K7aL12.gz",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
-    },
-    {
-      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\+5TlKzVy.gz",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
-    },
-    {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\+75L0u9r.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -3653,6 +3653,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\+QhE0S8x.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\+wFfsr6N.gz",
@@ -3806,6 +3823,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.WebProxy.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\0nW6Bw8+.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\1iNbSYMS.gz",
@@ -4180,6 +4214,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.ServicePoint.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\6QCHX+qU.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\7+bGg3o3.gz",
@@ -4590,23 +4641,6 @@
       "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.WebSockets.Client.dll"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\De0hzMCp.gz",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\deOJCxsF.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -4879,23 +4913,6 @@
       "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.dll"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\FgTscmwr.gz",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
-    },
-    {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\FiiJXYIC.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -5066,6 +5083,23 @@
       "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.FileSystem.AccessControl.dll"
     },
     {
+      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\Gw4IUF1y.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/HttpClients.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HttpClients.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HttpClients.pdb"
+    },
+    {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\H2mE8391.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -5134,6 +5168,23 @@
       "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.dll"
     },
     {
+      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\HNg6DdCR.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\hq0AOp47.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -5183,6 +5234,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Drawing.Primitives.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\ifbYIOro.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/HttpClients.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HttpClients.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HttpClients.dll"
     },
     {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\ig+2td96.gz",
@@ -5268,6 +5336,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Globalization.Calendars.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\J87hf5kA.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\JdM4GjCk.gz",
@@ -6477,6 +6562,23 @@
       "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll"
     },
     {
+      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\W9SH6SE6.gz",
+      "SourceId": "BlazorWasm",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
+    },
+    {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\Wgw181JE.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -6732,23 +6834,6 @@
       "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Xml.dll"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\YjO2zY8E.gz",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
-    },
-    {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\yROCxPJN.gz",
       "SourceId": "BlazorWasm",
       "SourceType": "Computed",
@@ -6798,23 +6883,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Private.Runtime.InteropServices.JavaScript.dll"
-    },
-    {
-      "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\Z9Z7L56E.gz",
-      "SourceId": "BlazorWasm",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorWasm\\obj\\Debug\\net6.0\\build-gz\\ZDhH2n1t.gz",

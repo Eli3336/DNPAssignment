@@ -38,19 +38,19 @@ public class PostFileDao : IPostDao
         return Task.FromResult(existing);
     }
     
-    public Task<List<string>> GetAllPostsAsync()
+    public Task<ICollection<Post>> GetAllPostsAsync()
     {
         
         IEnumerable<Post> posts = context.Posts.AsEnumerable();
 
-        List<string> titles = new List<string>();
+        ICollection<Post> result = new List<Post>();
 
         foreach (Post post in posts)
         {
-            titles.Add(post.Title);
+            result.Add(post);
         }
 
-        return Task.FromResult(titles);
+        return Task.FromResult(result);
     }
     
     public Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto searchParams)

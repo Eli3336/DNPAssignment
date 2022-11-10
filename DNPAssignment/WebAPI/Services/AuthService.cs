@@ -28,7 +28,7 @@ public class AuthService:IAuthService
     public Task<User> ValidateUser(string username, string password)
     {
 
-        User? existingUser = context.Users.FirstOrDefault(u => 
+        User? existingUser = users.FirstOrDefault(u => 
             u.UserName.Equals(username, StringComparison.OrdinalIgnoreCase));
         
         if (existingUser == null)

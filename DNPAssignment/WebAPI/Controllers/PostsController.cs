@@ -52,11 +52,11 @@ public class PostsController : ControllerBase
     
     
     [HttpGet]
-    public async Task<ActionResult<List<string>>> GetAllPostsAsync()
+    public async Task<ActionResult<ICollection<Post>>> GetAllPostsAsync()
     {
         try
         {
-            List<string> posts = await postLogic.GetAllPostsAsync();
+            ICollection<Post> posts = await postLogic.GetAllPostsAsync();
             return Ok(posts);
         }
         catch (Exception e)

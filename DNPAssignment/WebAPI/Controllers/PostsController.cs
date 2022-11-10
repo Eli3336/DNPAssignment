@@ -65,4 +65,19 @@ public class PostsController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
+    
+    [HttpGet("{Title}")]
+    public async Task<ActionResult<PostCreationDto>> GetByTitle([FromRoute] string Title)
+    {
+        try
+        {
+            PostBasicDto result = await postLogic.GetByTitleAsync(Title);
+            return Ok(result);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
 }

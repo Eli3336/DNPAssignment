@@ -6,9 +6,13 @@
 @attribute [Authorize]
 <h3>ViewPosts</h3>
 
+<div>
+    <button @onclick="LoadPosts">Load</button>
+</div>
 
 @if (posts == null)
 {
+    <p>Loading Post...</p>
 }
 else if (!posts.Any())
 {
@@ -16,8 +20,7 @@ else if (!posts.Any())
 }
 else
 {
-    
-        @foreach (var item in posts)
+    @foreach (var item in posts)
         {<div @onclick="@(() => navMgr.NavigateTo($"/PostPage/{item.Title}"))">
              <div>@item.User.UserName</div>
              <div>@item.Title</div>
@@ -31,14 +34,14 @@ else
 }
 
 @code {
-    private ICollection<Post>? posts;
+    private IEnumerable<Post>? posts;
     private string msg = "";
 
-    protected override async Task OnInitializedAsync()
+    private async Task LoadPosts()
     {
         try
         {
-            posts = await postService.GetAsync(null, null);
+            posts = await postService.GetAsync(null,null);
         }
         catch (Exception e)
         {
@@ -46,4 +49,6 @@ else
             msg = e.Message;
         }
     }
+    
+    
 }

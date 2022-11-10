@@ -70,6 +70,17 @@
       "Id": 3,
       "Title": "omgggggggggg guyysss",
       "Body": "you won\u0027t believe what happened to me!!"
+    },
+    {
+      "User": {
+        "Id": 3,
+        "UserName": "Ana",
+        "Password": "banana",
+        "SecurityLevel": 0
+      },
+      "Id": 4,
+      "Title": "lmao",
+      "Body": "!!!!!!!!!!!!!!"
     }
   ]
 }

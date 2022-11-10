@@ -6,11 +6,10 @@ namespace Application.DaoInterfaces;
 public interface IPostDao
 {
     Task<Post> CreateAsync(Post post);
-    Task<Post?> GetByTitleAsync(string title);
+    Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto? searchParameters);
+    Task<Post?> GetByTitleAsync(string Title); 
+    Task<List<string>> GetAllPostsAsync();
     
-     Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto? searchParameters);
-    
-     Task<List<string>> GetAllPostsAsync();
 
 
 }

@@ -37,19 +37,6 @@ public class PostFileDao : IPostDao
         );
         return Task.FromResult(existing);
     }
-
-    public Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto searchParameters)
-    {
-        IEnumerable<Post> posts = context.Posts.AsEnumerable();
-        if (searchParameters.TitleContains != null)
-        {
-            posts = context.Posts.Where(p =>
-                p.Title.Contains(searchParameters.TitleContains, StringComparison.OrdinalIgnoreCase));
-        }
-
-        return Task.FromResult(posts);
-    }
-    
     
     public Task<List<string>> GetAllPostsAsync()
     {
@@ -66,4 +53,27 @@ public class PostFileDao : IPostDao
         return Task.FromResult(titles);
     }
     
+    public Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto searchParams)
+    {
+        IEnumerable<Post> result = context.Posts.AsEnumerable();
+
+        if (!string.IsNullOrEmpty(searchParams.TitleContains))
+        {
+            result = result.Where(t =>
+                t.Title.Contains(searchParams.TitleContains, StringComparison.OrdinalIgnoreCase));
+        }
+
+        return Task.FromResult(result);
+    }
+     /*public Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto searchParameters)
+        {
+            IEnumerable<Post> posts = context.Posts.AsEnumerable();
+            if (searchParameters.TitleContains != null)
+            {
+                posts = context.Posts.Where(p =>
+                    p.Title.Contains(searchParameters.TitleContains, StringComparison.OrdinalIgnoreCase));
+            }
+    
+            return Task.FromResult(posts);
+        }*/
 }

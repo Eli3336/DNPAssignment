@@ -10,5 +10,6 @@ public interface IPostLogic
     Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto? searchParameters);
     
     Task<List<string>> GetAllPostsAsync();
+    Task<PostBasicDto> GetByTitleAsync(string Title);
 
 }

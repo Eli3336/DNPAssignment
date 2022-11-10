@@ -1,1 +1,56 @@
-﻿
+﻿@page "/PostPage/{Title}"
+@using Domain.Models
+@using HttpClients.ClientInterfaces
+@using Domain.DTOs
+@inject IUserService userService
+@inject IPostService postService
+@inject NavigationManager navMgr
+<h3>Post</h3>
+
+@if (users == null)
+    {
+        <label>Loading users...</label>
+    }
+    else if (!users.Any())
+    {
+        <label>No users, you cannot create a Post</label>
+    }
+    else if (dto == null)
+    {
+        <label>Loading Post data..</label>
+    }
+    else
+    {
+        <div>
+            <div>@dto.UserName</div>
+            <div>@dto.Title</div>
+            <div>@dto.Body</div>
+        </div>
+    }
+@code {
+    [Parameter]
+    public string Title { get; set; }
+    
+    private PostCreationDto dto = null!;
+    private string msg = "";
+    private IEnumerable<User>? users;
+    
+    
+    protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+            users = await userService.GetUsers();
+            PostBasicDto postData = await postService.GetByTitleAsync(Title);
+            User currentlyAssigned = users.First(user => user.UserName.Equals(postData.UserName));
+
+            dto = new(currentlyAssigned.UserName, postData.Title, postData.Body);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}

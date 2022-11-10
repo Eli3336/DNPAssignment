@@ -615,7 +615,6 @@ C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\BlazorApp.csproj.CoreCompileInputs.cache
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\BlazorApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\J87hf5kA.gz
-C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\Z1VKZwXz.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\ac1Uk0nh.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\7sofzfy+.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\KI8XAGa3.gz
@@ -1667,3 +1666,11 @@ C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\o
 C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\BlazorApp.csproj.CopyComplete
 C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\ref\BlazorApp.dll
 C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\LoginButtons.razor.rz.scp.css
+C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\DI+82vc1.gz
+C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\lfSpq52F.gz
+C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\CreatePost.razor.rz.scp.css
+C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\Login.razor.rz.scp.css
+C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\LoginButtons.razor.rz.scp.css

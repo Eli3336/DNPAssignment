@@ -40,6 +40,17 @@ public class PostLogic : IPostLogic
         return postDao.GetAllPostsAsync();
     }
 
+    public async Task<PostBasicDto> GetByTitleAsync(string Title)
+    {
+        Post? post = await postDao.GetByTitleAsync(Title);
+        if (post == null)
+        {
+            throw new Exception($"Post with title {Title} not found");
+        }
+
+        return new PostBasicDto(post.Id, post.User.UserName, post.Title, post.Body);
+    }
+    
     private static void ValidateData(PostCreationDto postToCreate)
     {
         string title = postToCreate.Title;

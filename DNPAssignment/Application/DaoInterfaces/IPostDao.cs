@@ -8,9 +8,9 @@ public interface IPostDao
     Task<Post> CreateAsync(Post post);
     Task<Post?> GetByTitleAsync(string title);
     
-    public Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto? searchParameters);
+     Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto? searchParameters);
     
-    public Task<List<string>> GetAllPostsAsync();
+     Task<List<string>> GetAllPostsAsync();
 
 
 }

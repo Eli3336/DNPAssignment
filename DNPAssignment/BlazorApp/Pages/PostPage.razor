@@ -15,26 +15,25 @@
     {
         <label>No users, you cannot create a Post</label>
     }
-    else if (dto == null)
+    else if (currentpost == null)
     {
         <label>Loading Post data..</label>
     }
     else
     {
         <div>
-            <div>@dto.UserName</div>
-            <div>@dto.Title</div>
-            <div>@dto.Body</div>
+            <div>@currentpost.UserName</div>
+            <div>@currentpost.Title</div>
+            <div>@currentpost.Body</div>
         </div>
     }
 @code {
     [Parameter]
     public string Title { get; set; }
     
-    private PostCreationDto dto = null!;
     private string msg = "";
     private IEnumerable<User>? users;
-    
+    private PostBasicDto currentpost;
     
     protected override async Task OnInitializedAsync()
     {
@@ -42,10 +41,10 @@
         try
         {
             users = await userService.GetUsers();
-            PostBasicDto postData = await postService.GetByTitleAsync(Title);
-            User currentlyAssigned = users.First(user => user.UserName.Equals(postData.UserName));
+                currentpost= await postService.GetByTitleAsync(Title);
+            User currentlyAssigned = users.First(user => user.UserName.Equals(currentpost.UserName));
+            
 
-            dto = new(currentlyAssigned.UserName, postData.Title, postData.Body);
         }
         catch (Exception e)
         {

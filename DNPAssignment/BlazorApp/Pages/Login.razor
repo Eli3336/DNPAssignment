@@ -79,7 +79,7 @@
         try
         {
             await authService.LoginAsync(usernameLog, passwordLog);
-            navMgr.NavigateTo("/");
+            navMgr.NavigateTo("/ViewPosts");
         }
         catch (Exception e)
         {

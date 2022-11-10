@@ -7,9 +7,7 @@
 <h3>ViewPosts</h3>
 
 
-<div>
-    <button @onclick="LoadPosts">Load</button>
-</div>
+
 
 @if (posts == null)
 {
@@ -40,7 +38,7 @@ else
         }
         </tbody>
     </table>
-       
+       <button @onclick="@(() => navMgr.NavigateTo("/CreatePost"))">Create</button>
 }
 @if (!string.IsNullOrEmpty(msg))
 {
@@ -53,8 +51,7 @@ else
     private string? titleContains = "";
     private string msg = "";
 
-    private async Task LoadPosts()
-    {
+    protected override async Task OnInitializedAsync()    {
         try
         {
             posts = await postService.GetAsync(UserName,titleContains);

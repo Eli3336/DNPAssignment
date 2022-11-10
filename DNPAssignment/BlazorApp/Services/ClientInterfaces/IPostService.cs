@@ -9,7 +9,7 @@ public interface IPostService
 
     Task CreateAsync(PostCreationDto dto);
     
-    Task<PostBasicDto> GetByTitleAsync(string title);
+    Task<PostCreationDto> GetByTitleAsync(string title);
 
     Task<IEnumerable<Post>> GetPosts(string? titleContains = null);
 }

@@ -34,7 +34,7 @@ public class PostsController : ControllerBase
     }
     
     
-    [HttpGet("{title}")]
+   /* [HttpGet("{title}")]
     public async Task<ActionResult<IEnumerable<Post>>> GetAsync([FromQuery] string? title)
     {
         try
@@ -49,7 +49,7 @@ public class PostsController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
-    
+    */
     
     [HttpGet]
     public async Task<ActionResult<ICollection<Post>>> GetAllPostsAsync([FromQuery] string? userName,[FromQuery] string? titleContains)
@@ -72,7 +72,7 @@ public class PostsController : ControllerBase
     {
         try
         {
-            PostBasicDto result = await postLogic.GetByTitleAsync(Title);
+            PostCreationDto result = await postLogic.GetByTitleAsync(Title);
             return Ok(result);
         }
         catch (Exception e)

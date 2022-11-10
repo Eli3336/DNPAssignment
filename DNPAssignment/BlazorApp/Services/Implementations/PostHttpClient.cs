@@ -96,16 +96,17 @@ public class PostHttpClient : IPostService
         return post;
     }*/
     
-    public async Task<PostBasicDto> GetByTitleAsync(string title)
+    public async Task<PostCreationDto> GetByTitleAsync(string Title)
     {
-        HttpResponseMessage response = await client.GetAsync($"/Posts/{title}");
+        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", JwtAuthService.Jwt);
+        HttpResponseMessage response = await client.GetAsync($"/Posts/{Title}");
         string content = await response.Content.ReadAsStringAsync();
         if (!response.IsSuccessStatusCode)
         {
             throw new Exception(content);
         }
 
-        PostBasicDto post = JsonSerializer.Deserialize<PostBasicDto>(content, new JsonSerializerOptions
+        PostCreationDto post = JsonSerializer.Deserialize<PostCreationDto>(content, new JsonSerializerOptions
         {
             PropertyNameCaseInsensitive = true
         })!;

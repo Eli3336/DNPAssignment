@@ -32,7 +32,7 @@ else
                 <td>@item.Title</td>
                 <td>@item.User.UserName</td>
                 <td>
-                    <img src="icons/view.gif" class="View" @onclick="@(() => navMgr.NavigateTo($"/PostPage/{item.Title}"))"/>
+                    <div class="oi oi-plus" @onclick="@(() => navMgr.NavigateTo($"/PostPage/{item.Title}"))"></div>
                 </td>
             </tr>
         }

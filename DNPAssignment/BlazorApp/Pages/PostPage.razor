@@ -2,20 +2,10 @@
 @using Domain.Models
 @using Domain.DTOs
 @using BlazorApp.Services.ClientInterfaces
-@inject IUserService userService
 @inject IPostService postService
-@inject NavigationManager navMgr
 <h3>Post</h3>
 
-@if (users == null)
-    {
-        <label>Loading users...</label>
-    }
-    else if (!users.Any())
-    {
-        <label>No users, you cannot create a Post</label>
-    }
-    else if (currentpost == null)
+@if (currentpost == null)
     {
         <label>Loading Post data..</label>
     }
@@ -32,19 +22,16 @@
     public string Title { get; set; }
     
     private string msg = "";
-    private IEnumerable<User>? users;
-    private PostBasicDto currentpost;
+    private PostCreationDto currentpost;
     
     protected override async Task OnInitializedAsync()
     {
         msg = "";
         try
         {
-            users = await userService.GetUsers();
-                currentpost= await postService.GetByTitleAsync(Title);
-            User currentlyAssigned = users.First(user => user.UserName.Equals(currentpost.UserName));
             
-
+           currentpost= await postService.GetByTitleAsync(Title);
+           
         }
         catch (Exception e)
         {

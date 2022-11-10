@@ -17,10 +17,10 @@
         <label>User name:</label>
         <input type="text" @bind="usernameLog" @bind:event="oninput"/>
         <label>Password:</label>
-        <input type="text" @bind="passwordLog" @bind:event="oninput"/>
-        @if (!string.IsNullOrEmpty(resultMsg))
+        <input type="password" @bind="passwordLog" @bind:event="oninput"/>
+        @if (!string.IsNullOrEmpty(msg))
         {
-            <label style="color: @color">@resultMsg</label>
+            <label style="color: @color">@msg</label>
         }
     </div>
     <div class="button-row">
@@ -33,7 +33,7 @@
         <label>User name:</label>
         <input type="text" @bind="username" @bind:event="oninput"/>
         <label>Password:</label>
-        <input type="text" @bind="password" @bind:event="oninput"/>
+        <input type="password" @bind="password" @bind:event="oninput"/>
         @if (!string.IsNullOrEmpty(resultMsg))
         {
             <label style="color: @color">@resultMsg</label>
@@ -50,6 +50,7 @@
     private string usernameLog = "";
     private string passwordLog = "";
     private string resultMsg = "";
+    private string msg = "";
     private string color = "";
     
     private async Task Create()
@@ -83,7 +84,7 @@
         catch (Exception e)
         {
             Console.WriteLine(e);
-            resultMsg = $"Error: {e.Message}";
+            msg = $"Error: {e.Message}";
         }
     }
 }

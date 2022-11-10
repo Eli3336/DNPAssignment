@@ -5,6 +5,7 @@
 @inject IUserService userService
 @inject IPostService postService
 @inject NavigationManager navMgr
+@inject AuthenticationStateProvider accessor
 @attribute [Authorize]
 
 <div class="card">
@@ -38,7 +39,7 @@
         msg = "";
         try
         {
-           selectedUserName = "Ana";
+           selectedUserName = accessor.GetAuthenticationStateAsync().Result.User.Identity.Name;
         }
         catch (Exception e)
         {

@@ -1689,19 +1689,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mihai\\.nuget\\packages\\": {}
+    "C:\\Users\\Domi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mihai\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorApp\\BlazorApp.csproj",
+      "projectUniqueName": "C:\\Users\\Domi\\OneDrive\\Dokumenty\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorApp\\BlazorApp.csproj",
       "projectName": "BlazorApp",
-      "projectPath": "C:\\Users\\mihai\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorApp\\BlazorApp.csproj",
-      "packagesPath": "C:\\Users\\mihai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mihai\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorApp\\obj\\",
+      "projectPath": "C:\\Users\\Domi\\OneDrive\\Dokumenty\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorApp\\BlazorApp.csproj",
+      "packagesPath": "C:\\Users\\Domi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Domi\\OneDrive\\Dokumenty\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mihai\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Domi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1713,8 +1713,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\mihai\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\HttpClients.csproj": {
-              "projectPath": "C:\\Users\\mihai\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\HttpClients.csproj"
+            "C:\\Users\\Domi\\OneDrive\\Dokumenty\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\HttpClients.csproj": {
+              "projectPath": "C:\\Users\\Domi\\OneDrive\\Dokumenty\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\HttpClients.csproj"
             }
           }
         }

@@ -2,11 +2,16 @@
 
 using System.ComponentModel.DataAnnotations;
 using Domain.Models;
+using FileData;
 
 namespace WebApi.Services;
 
+
 public class AuthService:IAuthService
 {
+
+    public FileContext context;
+    
     private readonly IList<User> users = new List<User>
     {
         new User
@@ -23,7 +28,7 @@ public class AuthService:IAuthService
     public Task<User> ValidateUser(string username, string password)
     {
 
-        User? existingUser = users.FirstOrDefault(u => 
+        User? existingUser = context.Users.FirstOrDefault(u => 
             u.UserName.Equals(username, StringComparison.OrdinalIgnoreCase));
         
         if (existingUser == null)
@@ -56,7 +61,7 @@ public class AuthService:IAuthService
         // save to persistence instead of list
         
         users.Add(user);
-        
+        context.Users.Add(user);
         return Task.CompletedTask;
     }
 }

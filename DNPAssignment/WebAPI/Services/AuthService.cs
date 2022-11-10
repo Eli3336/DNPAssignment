@@ -10,8 +10,8 @@ namespace WebApi.Services;
 public class AuthService:IAuthService
 {
 
-    public FileContext context;
-    
+    public FileContext context = new FileContext();
+
     private readonly IList<User> users = new List<User>
     {
         new User
@@ -28,7 +28,7 @@ public class AuthService:IAuthService
     public Task<User> ValidateUser(string username, string password)
     {
 
-        User? existingUser = users.FirstOrDefault(u => 
+        User? existingUser = context.Users.FirstOrDefault(u => 
             u.UserName.Equals(username, StringComparison.OrdinalIgnoreCase));
         
         if (existingUser == null)

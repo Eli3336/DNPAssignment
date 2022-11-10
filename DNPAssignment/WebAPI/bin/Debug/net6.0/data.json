@@ -35,6 +35,12 @@
       "UserName": "Sara",
       "Password": "ScrumMommy",
       "SecurityLevel": 0
+    },
+    {
+      "Id": 7,
+      "UserName": "Luis",
+      "Password": "12345",
+      "SecurityLevel": 0
     }
   ],
   "Posts": [

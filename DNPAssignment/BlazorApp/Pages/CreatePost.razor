@@ -9,21 +9,21 @@
 
 <div class="card">
     <h3>Create Post</h3>
-        <div class="form-group field">
-            <label>Title:</label>
-            <input type="text" @bind="postTitle"/>
-        </div>
-        <div class="form-group field">
-            <label>Body:</label>
-            <input type="text" @bind="body"/>
-        </div>
-        <div class="button-row">
-            @if (!string.IsNullOrEmpty(msg))
-            {
-                <label style="color: red">@msg</label>
-            }
-            <button @onclick="Create" class="acceptbtn">Create</button>
-        </div>
+    <div class="form-group field">
+        <label>Title:</label>
+        <input type="text" @bind="postTitle"/>
+    </div>
+    <div class="form-group field">
+        <label>Body:</label>
+        <input type="text" @bind="body"/>
+    </div>
+    <div class="button-row">
+        @if (!string.IsNullOrEmpty(msg))
+        {
+            <label style="color: red">@msg</label>
+        }
+        <button @onclick="Create" class="acceptbtn">Create</button>
+    </div>
 </div>
 
 @code {
@@ -62,11 +62,8 @@
         }
         try
             {
-                Console.WriteLine("enter try");
                 PostCreationDto dto = new(selectedUserName, postTitle, body);
-                Console.WriteLine("dto works");
                 await postService.CreateAsync(dto);
-                Console.WriteLine("create works");
                 navMgr.NavigateTo("/ViewPosts");
             }
             catch (Exception e)
@@ -74,6 +71,5 @@
                 Console.WriteLine(e);
                 msg = e.Message;
             }
-        Console.WriteLine("skipped");
     }
 }

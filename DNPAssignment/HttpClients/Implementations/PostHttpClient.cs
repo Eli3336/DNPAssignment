@@ -32,29 +32,44 @@ public class PostHttpClient : IPostService
     }*/
    public async Task<ICollection<Post>> GetAsync(string? userName, string? titleContains)
    {
-       string query = ConstructQuery(userName, titleContains);
-
-       HttpResponseMessage response = await client.GetAsync("/Posts" + query);
-       string content = await response.Content.ReadAsStringAsync();
-       if (!response.IsSuccessStatusCode)
+       try
        {
-           throw new Exception(content);
+           string query = ConstructQuery(userName, titleContains);
+
+           HttpResponseMessage response = await client.GetAsync("/Posts" + query);
+           string content = await response.Content.ReadAsStringAsync();
+           if (!response.IsSuccessStatusCode)
+           {
+               throw new Exception(content);
+           }
+
+           ICollection<Post> posts = JsonSerializer.Deserialize<ICollection<Post>>(content, new JsonSerializerOptions
+           {
+               PropertyNameCaseInsensitive = true
+           })!;
+           return posts;
        }
-
-       ICollection<Post> posts = JsonSerializer.Deserialize<ICollection<Post>>(content, new JsonSerializerOptions
+       catch (Exception e)
        {
-           PropertyNameCaseInsensitive = true
-       })!;
-       return posts;
+           Console.WriteLine(e.Message);
+           return null;
+       }
    }
 
     public async Task CreateAsync(PostCreationDto dto)
     {
-        HttpResponseMessage response = await client.PostAsJsonAsync("/Posts",dto);
-        if (!response.IsSuccessStatusCode)
+        try
         {
-            string content = await response.Content.ReadAsStringAsync();
-            throw new Exception(content);
+            HttpResponseMessage response = await client.PostAsJsonAsync("/Posts", dto);
+            if (!response.IsSuccessStatusCode)
+            {
+                string content = await response.Content.ReadAsStringAsync();
+                throw new Exception(content);
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
         }
     }
 
@@ -123,7 +138,6 @@ public class PostHttpClient : IPostService
             query += $"?UserName={userName}";
         }
         
-
         if (!string.IsNullOrEmpty(titleContains))
         {
             query += string.IsNullOrEmpty(query) ? "?" : "&";

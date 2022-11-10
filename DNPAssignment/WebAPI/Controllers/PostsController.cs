@@ -39,7 +39,7 @@ public class PostsController : ControllerBase
     {
         try
         {
-            SearchPostParametersDto parameters = new(title);
+            SearchPostParametersDto parameters = new("", title);
             IEnumerable<Post> posts = await postLogic.GetAsync(parameters);
             return Ok(posts);
         }
@@ -52,11 +52,12 @@ public class PostsController : ControllerBase
     
     
     [HttpGet]
-    public async Task<ActionResult<ICollection<Post>>> GetAllPostsAsync()
+    public async Task<ActionResult<ICollection<Post>>> GetAllPostsAsync([FromQuery] string? userName,[FromQuery] string? titleContains)
     {
         try
         {
-            ICollection<Post> posts = await postLogic.GetAllPostsAsync();
+            SearchPostParametersDto parameters = new(userName, titleContains);
+            var posts = await postLogic.GetAsync(parameters);
             return Ok(posts);
         }
         catch (Exception e)

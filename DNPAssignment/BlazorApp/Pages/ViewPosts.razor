@@ -6,26 +6,40 @@
 @attribute [Authorize]
 <h3>ViewPosts</h3>
 
+
 <div>
     <button @onclick="LoadPosts">Load</button>
 </div>
 
 @if (posts == null)
 {
-    <p>Loading Post...</p>
 }
 else if (!posts.Any())
 {
-    <p>No Todos to display</p>
+    <p>No Todos to display </p>
 }
 else
 {
-    @foreach (var item in posts)
-        {<div @onclick="@(() => navMgr.NavigateTo($"/PostPage/{item.Title}"))">
-             <div>@item.User.UserName</div>
-             <div>@item.Title</div>
-         </div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Username</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in posts)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.User.UserName</td>
+                <td>
+                    <img src="icons/view.gif" class="View" @onclick="@(() => navMgr.NavigateTo($"/PostPage/{item.Title}"))"/>
+                </td>
+            </tr>
         }
+        </tbody>
+    </table>
        
 }
 @if (!string.IsNullOrEmpty(msg))
@@ -35,13 +49,15 @@ else
 
 @code {
     private IEnumerable<Post>? posts;
+    private string? UserName = "";
+    private string? titleContains = "";
     private string msg = "";
 
     private async Task LoadPosts()
     {
         try
         {
-            posts = await postService.GetAsync(null,null);
+            posts = await postService.GetAsync(UserName,titleContains);
         }
         catch (Exception e)
         {

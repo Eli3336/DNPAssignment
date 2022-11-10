@@ -1,10 +1,10 @@
 ﻿using System.Net.Http.Json;
 using System.Text.Json;
+using BlazorApp.Services.ClientInterfaces;
 using Domain.DTOs;
 using Domain.Models;
-using HttpClients.ClientInterfaces;
 
-namespace HttpClients.Implementations;
+namespace BlazorApp.Services.Implementations;
 
 public class UserHttpClient : IUserService
 {

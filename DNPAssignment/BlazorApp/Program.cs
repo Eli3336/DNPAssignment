@@ -3,11 +3,10 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using BlazorApp;
 
 using BlazorApp.Auth;
+using BlazorApp.Services.ClientInterfaces;
 using BlazorApp.Services.Http;
+using BlazorApp.Services.Implementations;
 using Microsoft.AspNetCore.Components.Authorization;
-
-using HttpClients.ClientInterfaces;
-using HttpClients.Implementations;
 
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);

@@ -1,7 +1,7 @@
 ﻿using Domain.DTOs;
 using Domain.Models;
 
-namespace HttpClients.ClientInterfaces;
+namespace BlazorApp.Services.ClientInterfaces;
 
 public interface IUserService
 {

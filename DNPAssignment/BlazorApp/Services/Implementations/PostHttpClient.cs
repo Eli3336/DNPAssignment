@@ -1,10 +1,13 @@
-﻿using System.Net.Http.Json;
+﻿using System.Net.Http.Headers;
+using System.Net.Http.Json;
 using System.Text.Json;
+using BlazorApp.Services.ClientInterfaces;
+using BlazorApp.Services.Http;
 using Domain.DTOs;
 using Domain.Models;
-using HttpClients.ClientInterfaces;
 
-namespace HttpClients.Implementations;
+
+namespace BlazorApp.Services.Implementations;
 
 public class PostHttpClient : IPostService
 {
@@ -34,6 +37,8 @@ public class PostHttpClient : IPostService
    {
        try
        {
+
+           client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", JwtAuthService.Jwt);
            string query = ConstructQuery(userName, titleContains);
 
            HttpResponseMessage response = await client.GetAsync("/Posts" + query);

@@ -3,6 +3,7 @@
 @using Domain.DTOs
 @using BlazorApp.Services.ClientInterfaces
 @inject IPostService postService
+@inject NavigationManager navMgr
 <h3>Post</h3>
 
 @if (currentpost == null)
@@ -11,12 +12,16 @@
     }
     else
     {
-        <div>
-            <div>@currentpost.UserName</div>
-            <div>@currentpost.Title</div>
+        <div class="container bg-light col-6">
+            <div class="border-bottom border-1">@currentpost.UserName</div>
+            <div class="border-bottom border-1">@currentpost.Title</div>
             <div>@currentpost.Body</div>
         </div>
+        
     }
+<div class="button-row">
+<button @onclick="@(() => navMgr.NavigateTo("/ViewPosts"))" class="acceptbtn">Go back</button>
+</div>
 @code {
     [Parameter]
     public string Title { get; set; }

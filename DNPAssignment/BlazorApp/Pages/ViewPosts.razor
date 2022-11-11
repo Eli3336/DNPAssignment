@@ -23,6 +23,7 @@ else
         <tr>
             <th>Title</th>
             <th>Username</th>
+            <th></th>
         </tr>
         </thead>
         <tbody>
@@ -32,13 +33,15 @@ else
                 <td>@item.Title</td>
                 <td>@item.User.UserName</td>
                 <td>
-                    <div class="oi oi-plus" @onclick="@(() => navMgr.NavigateTo($"/PostPage/{item.Title}"))"></div>
+                    <div class="oi oi-ellipses" @onclick="@(() => navMgr.NavigateTo($"/PostPage/{item.Title}"))"></div>
                 </td>
             </tr>
         }
         </tbody>
     </table>
-       <button @onclick="@(() => navMgr.NavigateTo("/CreatePost"))">Create</button>
+    <div class="button-row">
+    <button @onclick="@(() => navMgr.NavigateTo("/CreatePost"))" class="acceptbtn">Create</button>
+    </div>
 }
 @if (!string.IsNullOrEmpty(msg))
 {

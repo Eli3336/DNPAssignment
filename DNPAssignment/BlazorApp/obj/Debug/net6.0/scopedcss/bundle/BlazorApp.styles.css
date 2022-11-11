@@ -1,8 +1,20 @@
+/* /App.razor.rz.scp.css */
+.acceptbtn[b-y6094xlz7d] {
+    background-color: mediumpurple;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button-row[b-y6094xlz7d] {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 /* /Pages/CreatePost.razor.rz.scp.css */
 .card[b-h1oki55iil] {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width: 250px;
+    width: 500px;
     padding: 25px;
     text-align: center;
     margin: auto;
@@ -15,7 +27,7 @@
 }
 
 .acceptbtn[b-h1oki55iil] {
-    background-color: lightgreen;
+    background-color: mediumpurple;
     border-radius: 5px;
     padding: 5px;
     padding-left: 10px;
@@ -23,6 +35,17 @@
 }
 
 .button-row[b-h1oki55iil] {
+    margin-top: 15px;
+}
+/* /Pages/Index.razor.rz.scp.css */
+.acceptbtn[b-w6l7chfipm] {
+    background-color: mediumpurple;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button-row[b-w6l7chfipm] {
     margin-top: 15px;
 }
 /* /Pages/Login.razor.rz.scp.css */
@@ -67,6 +90,28 @@
 .icon[b-4b02np3lx0] {
     width: 30px;
     cursor: pointer;
+}
+/* /Pages/PostPage.razor.rz.scp.css */
+.acceptbtn[b-3v7h4qeqhi] {
+    background-color: mediumpurple;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button-row[b-3v7h4qeqhi] {
+    margin-top: 15px;
+}
+/* /Pages/ViewPosts.razor.rz.scp.css */
+.acceptbtn[b-g0u87luc50] {
+    background-color: mediumpurple;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button-row[b-g0u87luc50] {
+    margin-top: 15px;
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-3dsd3z3yec] {

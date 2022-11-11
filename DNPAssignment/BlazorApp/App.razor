@@ -1,10 +1,16 @@
-﻿<CascadingAuthenticationState>
+﻿@inject NavigationManager navMgr
+<CascadingAuthenticationState>
     <Router AppAssembly="@typeof(App).Assembly">
         <Found Context="routeData">
             <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
                 <NotAuthorized>
+                    <h1>You can't enter the forum!</h1>
+                    <p>To do so you have to Log in or Register into the system.</p>
+                    
                     <img width="600" src="https://i.kym-cdn.com/entries/icons/original/000/002/144/You_Shall_Not_Pass!_0-1_screenshot.jpg"/>
-                    <p>You'll have to log in!</p>
+                    <div class="button-row">
+                    <button @onclick="@(() => navMgr.NavigateTo("/login"))" class="acceptbtn">Log in / Register</button>
+                    </div>
                 </NotAuthorized>
             </AuthorizeRouteView>
             <FocusOnNavigate RouteData="@routeData" Selector="h1"/>

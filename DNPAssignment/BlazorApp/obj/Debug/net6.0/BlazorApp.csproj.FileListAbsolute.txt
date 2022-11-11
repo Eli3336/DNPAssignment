@@ -2512,3 +2512,7 @@ C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\ob
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\refint\BlazorApp.dll
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\BlazorApp.pdb
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\ref\BlazorApp.dll
+C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\PostPage.razor.rz.scp.css
+C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\ViewPosts.razor.rz.scp.css
+C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\scopedcss\App.razor.rz.scp.css

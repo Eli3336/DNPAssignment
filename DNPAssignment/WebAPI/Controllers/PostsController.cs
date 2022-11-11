@@ -18,6 +18,7 @@ public class PostsController : ControllerBase
         this.postLogic = postLogic;
     }
     
+    
     [HttpPost]
     public async Task<ActionResult<Post>> CreateAsync(PostCreationDto dto)
     {
@@ -34,22 +35,8 @@ public class PostsController : ControllerBase
     }
     
     
-   /* [HttpGet("{title}")]
-    public async Task<ActionResult<IEnumerable<Post>>> GetAsync([FromQuery] string? title)
-    {
-        try
-        {
-            SearchPostParametersDto parameters = new("", title);
-            IEnumerable<Post> posts = await postLogic.GetAsync(parameters);
-            return Ok(posts);
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            return StatusCode(500, e.Message);
-        }
-    }
-    */
+  
+           
     
     [HttpGet]
     public async Task<ActionResult<ICollection<Post>>> GetAllPostsAsync([FromQuery] string? userName,[FromQuery] string? titleContains)

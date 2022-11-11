@@ -56,9 +56,7 @@ public class AuthService:IAuthService
         {
             throw new ValidationException("Password cannot be null");
         }
-        // Do more user info validation here
         
-        // save to persistence instead of list
         
         users.Add(user);
         context.Users.Add(user);

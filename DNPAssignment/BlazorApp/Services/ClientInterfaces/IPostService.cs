@@ -11,5 +11,4 @@ public interface IPostService
     
     Task<PostCreationDto> GetByTitleAsync(string title);
 
-    Task<IEnumerable<Post>> GetPosts(string? titleContains = null);
 }

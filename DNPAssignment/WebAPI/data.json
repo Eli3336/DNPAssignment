@@ -47,6 +47,18 @@
       "UserName": "Bianca",
       "Password": "password",
       "SecurityLevel": 0
+    },
+    {
+      "Id": 9,
+      "UserName": "Robert",
+      "Password": "junior",
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 10,
+      "UserName": "Jakob2",
+      "Password": "rasmus",
+      "SecurityLevel": 0
     }
   ],
   "Posts": [
@@ -85,47 +97,25 @@
     },
     {
       "User": {
-        "Id": 3,
-        "UserName": "Ana",
-        "Password": "banana",
-        "SecurityLevel": 0
-      },
-      "Id": 4,
-      "Title": "lmao",
-      "Body": "!!!!!!!!!!!!!!"
-    },
-    {
-      "User": {
-        "Id": 3,
-        "UserName": "Ana",
-        "Password": "banana",
-        "SecurityLevel": 0
-      },
-      "Id": 5,
-      "Title": "afwfwfew",
-      "Body": "fesfvsvs"
-    },
-    {
-      "User": {
-        "Id": 4,
-        "UserName": "Elly",
-        "Password": "string",
-        "SecurityLevel": 0
-      },
-      "Id": 6,
-      "Title": "tile",
-      "Body": "eugighrie"
-    },
-    {
-      "User": {
         "Id": 7,
         "UserName": "Luis",
         "Password": "12345",
         "SecurityLevel": 0
       },
-      "Id": 7,
-      "Title": "2345",
-      "Body": "wearstdgh"
+      "Id": 4,
+      "Title": "Nigeria",
+      "Body": "Wonderful country love from DK"
+    },
+    {
+      "User": {
+        "Id": 10,
+        "UserName": "Jakob2",
+        "Password": "rasmus",
+        "SecurityLevel": 0
+      },
+      "Id": 5,
+      "Title": "Hello",
+      "Body": "I am a new user, Hello!"
     }
   ]
 }

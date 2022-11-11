@@ -37,10 +37,10 @@ public class PostFileDao : IPostDao
         );
         return Task.FromResult(existing);
     }
-    
+
     public Task<ICollection<Post>> GetAllPostsAsync()
     {
-        
+
         IEnumerable<Post> posts = context.Posts.AsEnumerable();
 
         ICollection<Post> result = new List<Post>();
@@ -52,7 +52,7 @@ public class PostFileDao : IPostDao
 
         return Task.FromResult(result);
     }
-    
+
     public Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto searchParams)
     {
         IEnumerable<Post> result = context.Posts.AsEnumerable();
@@ -65,15 +65,4 @@ public class PostFileDao : IPostDao
 
         return Task.FromResult(result);
     }
-     /*public Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto searchParameters)
-        {
-            IEnumerable<Post> posts = context.Posts.AsEnumerable();
-            if (searchParameters.TitleContains != null)
-            {
-                posts = context.Posts.Where(p =>
-                    p.Title.Contains(searchParameters.TitleContains, StringComparison.OrdinalIgnoreCase));
-            }
-    
-            return Task.FromResult(posts);
-        }*/
 }

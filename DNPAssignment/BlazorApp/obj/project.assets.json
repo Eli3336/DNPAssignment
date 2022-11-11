@@ -419,19 +419,6 @@
         "runtime": {
           "bin/placeholder/Domain.dll": {}
         }
-      },
-      "HttpClients/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/HttpClients.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HttpClients.dll": {}
-        }
       }
     },
     "net6.0/browser-wasm": {
@@ -845,19 +832,6 @@
         },
         "runtime": {
           "bin/placeholder/Domain.dll": {}
-        }
-      },
-      "HttpClients/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/HttpClients.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HttpClients.dll": {}
         }
       }
     }
@@ -1673,48 +1647,50 @@
       "type": "project",
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
-    },
-    "HttpClients/1.0.0": {
-      "type": "project",
-      "path": "../HttpClients/HttpClients.csproj",
-      "msbuildProject": "../HttpClients/HttpClients.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "HttpClients >= 1.0.0",
+      "Domain >= 1.0.0",
       "Microsoft.AspNetCore.Components.Authorization >= 6.0.11",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.8",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.8"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Domi\\.nuget\\packages\\": {}
+    "C:\\Users\\luisd\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Domi\\OneDrive\\Dokumenty\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorApp\\BlazorApp.csproj",
+      "projectUniqueName": "D:\\Programacion\\DNPAssignment\\DNPAssignment\\BlazorApp\\BlazorApp.csproj",
       "projectName": "BlazorApp",
-      "projectPath": "C:\\Users\\Domi\\OneDrive\\Dokumenty\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorApp\\BlazorApp.csproj",
-      "packagesPath": "C:\\Users\\Domi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Domi\\OneDrive\\Dokumenty\\GitHub\\DNPAssignment\\DNPAssignment\\BlazorApp\\obj\\",
+      "projectPath": "D:\\Programacion\\DNPAssignment\\DNPAssignment\\BlazorApp\\BlazorApp.csproj",
+      "packagesPath": "C:\\Users\\luisd\\.nuget\\packages\\",
+      "outputPath": "D:\\Programacion\\DNPAssignment\\DNPAssignment\\BlazorApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Domi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\luisd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Domi\\OneDrive\\Dokumenty\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\HttpClients.csproj": {
-              "projectPath": "C:\\Users\\Domi\\OneDrive\\Dokumenty\\GitHub\\DNPAssignment\\DNPAssignment\\HttpClients\\HttpClients.csproj"
+            "D:\\Programacion\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Programacion\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj"
             }
           }
         }

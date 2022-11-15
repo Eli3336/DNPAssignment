@@ -11,53 +11,53 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BlazorApp
 build_property.RootNamespace = BlazorApp
-build_property.ProjectDir = C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment3\DNPAssignment\BlazorApp\
+build_property.ProjectDir = D:\Programacion\DNPAssignment\DNPAssignment\BlazorApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mihai\OneDrive\Documents\GitHub\DNPAssignment3\DNPAssignment\BlazorApp
+build_property.MSBuildProjectDirectory = D:\Programacion\DNPAssignment\DNPAssignment\BlazorApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment3/DNPAssignment/BlazorApp/Shared/SurveyPrompt.razor]
+[D:/Programacion/DNPAssignment/DNPAssignment/BlazorApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment3/DNPAssignment/BlazorApp/_Imports.razor]
+[D:/Programacion/DNPAssignment/DNPAssignment/BlazorApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment3/DNPAssignment/BlazorApp/App.razor]
+[D:/Programacion/DNPAssignment/DNPAssignment/BlazorApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-y6094xlz7d
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment3/DNPAssignment/BlazorApp/Pages/CreatePost.razor]
+[D:/Programacion/DNPAssignment/DNPAssignment/BlazorApp/Pages/CreatePost.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-h1oki55iil
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment3/DNPAssignment/BlazorApp/Pages/Index.razor]
+[D:/Programacion/DNPAssignment/DNPAssignment/BlazorApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-w6l7chfipm
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment3/DNPAssignment/BlazorApp/Pages/Login.razor]
+[D:/Programacion/DNPAssignment/DNPAssignment/BlazorApp/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-c956fem5qt
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment3/DNPAssignment/BlazorApp/Pages/LoginButtons.razor]
+[D:/Programacion/DNPAssignment/DNPAssignment/BlazorApp/Pages/LoginButtons.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5CdXR0b25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-4b02np3lx0
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment3/DNPAssignment/BlazorApp/Pages/PostPage.razor]
+[D:/Programacion/DNPAssignment/DNPAssignment/BlazorApp/Pages/PostPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdFBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3v7h4qeqhi
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment3/DNPAssignment/BlazorApp/Pages/ViewPosts.razor]
+[D:/Programacion/DNPAssignment/DNPAssignment/BlazorApp/Pages/ViewPosts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Bvc3RzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-g0u87luc50
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment3/DNPAssignment/BlazorApp/Shared/MainLayout.razor]
+[D:/Programacion/DNPAssignment/DNPAssignment/BlazorApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3dsd3z3yec
 
-[C:/Users/mihai/OneDrive/Documents/GitHub/DNPAssignment3/DNPAssignment/BlazorApp/Shared/NavMenu.razor]
+[D:/Programacion/DNPAssignment/DNPAssignment/BlazorApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-7cxxmz0cwl

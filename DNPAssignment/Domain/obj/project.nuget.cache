@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "NUs2saR3GYqMrV/6tJD2fuXlH0Fm8HxT3dpMHJaQZX5OzQBQlLpXhfWZ2XqrXqWORPOTum9DdALrua/uWCfRnA==",
+  "dgSpecHash": "HDwS+V0AP4h9Jay1HsSgZDMEjBBd26DwgdRf2Fe2u5vC3xR7w3a1CKE3GJ6ELAcJ8nCgmB6owtGpGSqkJzs7Aw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mihai\\OneDrive\\Documents\\GitHub\\DNPAssignment3\\DNPAssignment\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\Programacion\\DNPAssignment\\DNPAssignment\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.0\\microsoft.aspnetcore.authorization.7.0.0.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.0\\microsoft.aspnetcore.metadata.7.0.0.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\luisd\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.0\\microsoft.aspnetcore.authorization.7.0.0.nupkg.sha512",
+    "C:\\Users\\luisd\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.0\\microsoft.aspnetcore.metadata.7.0.0.nupkg.sha512",
+    "C:\\Users\\luisd\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\luisd\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\luisd\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\luisd\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\luisd\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

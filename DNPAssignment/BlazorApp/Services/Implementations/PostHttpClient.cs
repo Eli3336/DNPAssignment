@@ -83,28 +83,6 @@ public class PostHttpClient : IPostService
         return post;
     }
     
-
-    public async Task<IEnumerable<Post>> GetPosts(string? titleContains = null)
-    {
-        string uri = "/Posts";
-        if (!string.IsNullOrEmpty(titleContains))
-        {
-            uri += $"?title={titleContains}";
-        }
-        HttpResponseMessage response = await client.GetAsync(uri);
-        string result = await response.Content.ReadAsStringAsync();
-        if (!response.IsSuccessStatusCode)
-        {
-            throw new Exception(result);
-        }
-
-        Console.WriteLine(result);
-        IEnumerable<Post> posts = JsonSerializer.Deserialize<IEnumerable<Post>>(result, new JsonSerializerOptions
-        {
-            PropertyNameCaseInsensitive = true
-        })!;
-        return posts;
-    }
     
     private static string ConstructQuery(string? userName,  string? titleContains)
     {

@@ -36,10 +36,10 @@ public class UserEfcDao : IUserDao
         IQueryable<User> usersQuery = context.Users.AsQueryable();
         if (searchParameters.UsernameContains != null)
         {
-            usersQuery = usersQuery.Where(u => u.UserName.ToLower().Contains(searchParameters.UsernameContains.ToLower()));
+            usersQuery = context.Users.Where(u =>
+                u.UserName.Contains(searchParameters.UsernameContains, StringComparison.OrdinalIgnoreCase));
         }
-
         IEnumerable<User> result = await usersQuery.ToListAsync();
-        return result;
+        return await Task.FromResult(result);
     }
 }

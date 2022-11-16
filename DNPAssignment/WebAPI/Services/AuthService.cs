@@ -2,7 +2,7 @@
 
 using System.ComponentModel.DataAnnotations;
 using Domain.Models;
-using FileData;
+using EFCDataAccess;
 
 namespace WebApi.Services;
 
@@ -10,7 +10,7 @@ namespace WebApi.Services;
 public class AuthService:IAuthService
 {
 
-    public FileContext context = new FileContext();
+    public ForumContext context = new ForumContext();
 
     private readonly IList<User> users = new List<User>
     {
@@ -29,7 +29,7 @@ public class AuthService:IAuthService
     {
 
         User? existingUser = context.Users.FirstOrDefault(u => 
-            u.UserName.Equals(username, StringComparison.OrdinalIgnoreCase));
+            u.UserName.Equals(username));
         
         if (existingUser == null)
         {

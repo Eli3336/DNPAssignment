@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\EfcDataAccess\\EFCDataAccess.csproj": {}
+    "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\EfcDataAccess\\EfcDataAccess.csproj": {}
   },
   "projects": {
     "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\Application\\Application.csproj": {
@@ -120,12 +120,12 @@
         }
       }
     },
-    "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\EfcDataAccess\\EFCDataAccess.csproj": {
+    "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\EfcDataAccess\\EfcDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\EfcDataAccess\\EFCDataAccess.csproj",
-        "projectName": "EFCDataAccess",
-        "projectPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\EfcDataAccess\\EFCDataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\EfcDataAccess\\EfcDataAccess.csproj",
+        "projectName": "EfcDataAccess",
+        "projectPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\EfcDataAccess\\EfcDataAccess.csproj",
         "packagesPath": "C:\\Users\\Bianca\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Bianca\\OneDrive\\Documents\\GitHub\\DNPAssignment\\DNPAssignment\\EfcDataAccess\\obj\\",
         "projectStyle": "PackageReference",

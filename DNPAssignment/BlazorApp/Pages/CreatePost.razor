@@ -23,8 +23,9 @@
             <label style="color: red">@msg</label>
         }
         <div class="button-row">
-                 <button @onclick="Create" class="acceptbtn">Create</button>
-             </div>
+            <button @onclick="Create" class="acceptbtn">Create</button>
+        </div>
+        
 </div>
 
 @code {
@@ -72,5 +73,6 @@
                 Console.WriteLine(e);
                 msg = e.Message;
             }
+
     }
 }

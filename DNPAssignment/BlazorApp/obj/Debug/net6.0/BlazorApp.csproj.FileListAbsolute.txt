@@ -7,8 +7,6 @@ C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.8.ryv9ak21k8.js
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm
-C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\HttpClients.dll
-C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\HttpClients.pdb
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\icudt_CJK.dat
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\icudt_EFIGS.dat
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\icudt_no_CJK.dat
@@ -297,7 +295,6 @@ C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.8.ryv9ak21k8.js.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll.gz
-C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\HttpClients.pdb.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Immutable.dll.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Windows.dll.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Concurrent.dll.gz
@@ -305,7 +302,6 @@ C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Domain.dll.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
-C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\HttpClients.dll.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.dll.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
@@ -605,8 +601,6 @@ C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\icudt_EFIGS.dat
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\icudt_no_CJK.dat
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\Domain.dll
-C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\HttpClients.dll
-C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\HttpClients.pdb
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\Domain.pdb
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\BlazorApp.csproj.AssemblyReference.cache
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
@@ -810,8 +804,6 @@ C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\+OziFtIw.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\JOuxQ3AN.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\hq0AOp47.gz
-C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\ifbYIOro.gz
-C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\Gw4IUF1y.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\07Iftxmn.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\+vf++y+1.gz
 C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\+Xu64xy5.gz
@@ -3350,3 +3342,7 @@ D:\Programacion\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\BlazorApp
 D:\Programacion\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\refint\BlazorApp.dll
 D:\Programacion\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\BlazorApp.pdb
 D:\Programacion\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\ref\BlazorApp.dll
+C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\scopedcss\App.razor.rz.scp.css
+C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\PostPage.razor.rz.scp.css
+C:\Users\Bianca\OneDrive\Documents\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\ViewPosts.razor.rz.scp.css

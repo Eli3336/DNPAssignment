@@ -14,7 +14,7 @@
 }
 else if (!posts.Any())
 {
-    <p>No Todos to display </p>
+    <p>No Posts to display </p>
 }
 else
 {
@@ -39,14 +39,15 @@ else
         }
         </tbody>
     </table>
-    <div class="button-row">
-    <button @onclick="@(() => navMgr.NavigateTo("/CreatePost"))" class="acceptbtn">Create</button>
-    </div>
+    
 }
 @if (!string.IsNullOrEmpty(msg))
 {
     <label style="color: red">@msg</label>
 }
+<div class="button-row">
+    <button @onclick="@(() => navMgr.NavigateTo("/CreatePost"))" class="acceptbtn">Create</button>
+</div>
 
 @code {
     private IEnumerable<Post>? posts;

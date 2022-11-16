@@ -7,5 +7,6 @@ public class User
     public string Password { get; set; }
 
     public int SecurityLevel { get; set; }
+    
 
 }

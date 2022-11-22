@@ -31,10 +31,10 @@ public class UserEfcDao : IUserDao
         return existing;
     }
 
-    public async Task<IEnumerable<User>> GetAsync(SearchUserParametersDto searchParameters)
+    public async Task<IEnumerable<User>> GetAsync(SearchUserParametersDto? searchParameters)
     {
         IQueryable<User> usersQuery = context.Users.AsQueryable();
-        if (searchParameters.UsernameContains != null)
+        if (searchParameters?.UsernameContains != null)
         {
             usersQuery = context.Users.Where(u =>
                 u.UserName.Contains(searchParameters.UsernameContains, StringComparison.OrdinalIgnoreCase));

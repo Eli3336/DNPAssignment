@@ -25,7 +25,7 @@ public class PostEfcDao : IPostDao
     {
         IQueryable<Post> query = context.Posts.Include(post => post.User).AsQueryable();
     
-        if (!string.IsNullOrEmpty(searchParameters.Username))
+        if (!string.IsNullOrEmpty(searchParameters?.Username))
         {
             // we know username is unique, so just fetch the first
             query = query.Where(post =>
@@ -33,7 +33,7 @@ public class PostEfcDao : IPostDao
         }
     
        
-        if (!string.IsNullOrEmpty(searchParameters.TitleContains))
+        if (!string.IsNullOrEmpty(searchParameters?.TitleContains))
         {
             query = query.Where(p =>
                 p.Title.ToLower().Contains(searchParameters.TitleContains.ToLower()));
@@ -43,9 +43,9 @@ public class PostEfcDao : IPostDao
         return result;
     }
 
-    public async Task<Post?> GetByTitleAsync(string Title)
+    public async Task<Post?> GetByTitleAsync(string title)
     {
-        Post? post = await context.Posts.FindAsync(Title);
+        Post? post = await context.Posts.FindAsync(title);
         return post;    
     }
     

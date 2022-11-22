@@ -1869,8 +1869,6 @@ C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bi
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Domain.dll
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Domain.pdb
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.8.qyl2cemgno.js
-C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\HttpClients.dll
-C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\HttpClients.pdb
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.dll.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.dll.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
@@ -1961,7 +1959,6 @@ C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bi
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Collections.dll.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Data.Common.dll.gz
-C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\HttpClients.dll.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
@@ -2045,7 +2042,6 @@ C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bi
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Specialized.dll.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Security.SecureString.dll.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
-C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\HttpClients.pdb.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Primitives.dll.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Xml.ReaderWriter.dll.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.dll.gz
@@ -2276,8 +2272,6 @@ C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bi
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\icudt_EFIGS.dat
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\icudt_no_CJK.dat
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\Domain.dll
-C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\HttpClients.dll
-C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\HttpClients.pdb
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\bin\Debug\net6.0\Domain.pdb
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\BlazorApp.csproj.AssemblyReference.cache
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
@@ -2483,8 +2477,6 @@ C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\ob
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\TrF6dDmZ.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\A8EXpcoj.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\XJwBzwSP.gz
-C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\I8Vu4Xt7.gz
-C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\UX777S2O.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\kdwH7+xd.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\HI120rjR.gz
 C:\Users\Domi\OneDrive\Dokumenty\GitHub\DNPAssignment\DNPAssignment\BlazorApp\obj\Debug\net6.0\build-gz\OruKB14+.gz

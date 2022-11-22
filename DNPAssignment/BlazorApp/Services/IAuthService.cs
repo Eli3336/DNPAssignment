@@ -1,7 +1,7 @@
 ﻿
 using System.Security.Claims;
 
-namespace BlazorApp.Services.Http;
+namespace BlazorApp.Services;
 
 public interface IAuthService
 {

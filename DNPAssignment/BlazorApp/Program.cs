@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using BlazorApp;
 
 using BlazorApp.Auth;
+using BlazorApp.Services;
 using BlazorApp.Services.ClientInterfaces;
 using BlazorApp.Services.Http;
 using BlazorApp.Services.Implementations;
